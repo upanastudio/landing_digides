@@ -1,0 +1,22 @@
+.navbar-nav {
+    flex-direction: row;
+}
+
+.nav-link {
+    padding-right: 1.7rem !important;
+    padding-left: 1.7rem !important;
+    cursor: pointer;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+}
+
+.nav-logo {
+    width: 130px;
+}
+
+.ml-auto .dropdown-menu {
+    left: auto !important;
+    right: 0px;
+}
