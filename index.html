@@ -7,124 +7,349 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/nav-style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/my-style.css">
+    <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+    </style>
     <title>Home Digides</title>
-    <style>
-        .color-transparant{
-        background-color: rgba(0,0,0,.6) !important;
-      }
-    </style>
-    <style>
-      .jumbotron{
-        z-index: 0;
-        color: white;
-      }
-      .bg-jumbotron{
-        height: 500px;
-        background: #00796B;
-      }
-      .info-jumbotron{
-        margin-top: 6rem;
-      }
-      .jumbo-p{
-        margin-bottom: .25rem
-      }
-      .info-btn{
-        width: 180px;
-        border-radius: 20px;
-      }
-    </style>
-</head>
 
 <body>
-    <nav id="navbar_mobile" class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+    <section id="navbarSection">
+        <nav id="navbar_mobile" class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img id="logoNavbar" class="nav-logo" src="assets/media/logo/Asset5.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="fitur.html" class="nav-link">Fitur</a>
+                        </li>
+                        <li href="artikel.html" class="nav-item">
+                            <a class="nav-link">Artikel</a>
+                        </li>
+                        <li href="kontak.html" class="nav-item">
+                            <a class="nav-link">Kontak</a>
+                        </li>
+                        <li class="nav-item dropdown d-none">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown on Right</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action with a lot of text inside of an item</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section id="jumbotronSection">
+        <div class="jumbotron jumbotron-fluid bg-jumbotron">
+            <div class="container info-jumbotron text-center">
+                <h1 class="display-4">DIGITAL DESA</h1>
+                <p class="jumbo-p">Pintu gerbang digital masuk desa</p>
+                <p class="jumbo-p">Semangat era 4.0 sesuai dengan Permendagri no.47 2016 tentang Administrasi Pemerintah Desa </p>
+                <div class="row mt-4">
+                    <div class="col-md-6 text-right">
+                        <a href="#" class="btn info-btn btn-light">
+                            Request Demo
+                        </a>
+                    </div>
+                    <div class="col-md-6 text-left">
+                        <a href="#" class="btn info-btn btn-primary">
+                            Coba Gratis
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contentSection">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img class="nav-logo" src="assets/media/logo/Asset5.png">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Fitur</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Artikel</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link">Kontak</a>
-                    </li>
-                    <li class="nav-item dropdown d-none">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown on Right</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action with a lot of text inside of an item</a>
+            <section id="digidesFitur" class="space-subHeader">
+                <div class="row">
+                    <div class="col-md-6 wrap-digidesfitur">
+                        <h4 class="sub-judul">DIGIDES FITUR</h4>
+                        <p>Semangat era 4.0 sesuai dengan Permendagri no.47 2016 tentang Administrasi Pemerintah Desa </p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <div class="card fitur-card">
+                            <div class="card-body fitur-card-body">
+                                <h4 style="color: white">Lihat Cara Kami <br>Membantu Anda</h4>
+                                <div>
+                                    <i class="fa fa-play-circle"></i>
+                                </div>
+                            </div>
                         </div>
-                    </li>
-                </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="solusi" class="space-subHeader">
+                <div class="row mb-5">
+                    <div class="col-md-12 text-center ">
+                        <h4 class="sub-judul">Solusi Yang Kami Berikan</h4>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <div class="card solusi-card">
+                            <div class="card-body solusi-card-body">
+                                <div class="row">
+                                    <div class="col-3 text-center">
+                                        <img class="solusi-icon" src="assets/media/misc/village.svg">
+                                    </div>
+                                    <div class="col-9">
+                                        <p class="solusi-judul-card">Administrasi Desa</p>
+                                        <p>
+                                            Aplikasi pengelola informasi desa yang dapat digunakan secara mandiri oleh perangkat desa.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="solusi-lihat-fitur">
+                                    <a href="">LIHAT FITUR > </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card solusi-card">
+                            <div class="card-body solusi-card-body">
+                                <div class="row">
+                                    <div class="col-3 text-center">
+                                        <img class="solusi-icon" src="assets/media/misc/village.svg">
+                                    </div>
+                                    <div class="col-9">
+                                        <p class="solusi-judul-card">Administrasi Desa</p>
+                                        <p>
+                                            Aplikasi pengelola informasi desa yang dapat digunakan secara mandiri oleh perangkat desa.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="solusi-lihat-fitur">
+                                    <a href="">LIHAT FITUR > </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <div class="card solusi-card">
+                            <div class="card-body solusi-card-body">
+                                <div class="row">
+                                    <div class="col-3 text-center">
+                                        <img class="solusi-icon" src="assets/media/misc/village.svg">
+                                    </div>
+                                    <div class="col-9">
+                                        <p class="solusi-judul-card">Administrasi Desa</p>
+                                        <p>
+                                            Aplikasi pengelola informasi desa yang dapat digunakan secara mandiri oleh perangkat desa.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="solusi-lihat-fitur">
+                                    <a href="">LIHAT FITUR > </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card solusi-card">
+                            <div class="card-body solusi-card-body">
+                                <div class="row">
+                                    <div class="col-3 text-center">
+                                        <img class="solusi-icon" src="assets/media/misc/village.svg">
+                                    </div>
+                                    <div class="col-9">
+                                        <p class="solusi-judul-card">Administrasi Desa</p>
+                                        <p>
+                                            Aplikasi pengelola informasi desa yang dapat digunakan secara mandiri oleh perangkat desa.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="solusi-lihat-fitur">
+                                    <a href="">LIHAT FITUR > </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="testimonial" class="space-subHeader">
+                <div class="row">
+                    <div class="col-md-12 text-center ">
+                        <h4 class="sub-judul">Testimonial</h4>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-12 col-carousel">
+                        <div class="owl-carousel carousel-main">
+                            <div>
+                                <div class="card">
+                                    <div class="card-body card-testimoni">
+                                        <div class="row">
+                                        	<div class="col-10">
+                                        		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor vestibulum laoreet. Proin vitae laoreet ex, nec ultrices tellus. In urna enim, tempus et imperdiet ac, tempor in purus. Sed hendrerit lacus eu odio interdum, nec sodales mauris vestibulum. In egestas tortor erat, et dapibus quam consequat ut. Aliquam placerat mollis mi, ut pretium lacus aliquam sed. Suspendisse id elit et turpis mollis pulvinar. Ut quis felis sit amet purus elementum tempor vitae faucibus libero. Donec faucibus massa vitae risus vulputate cursus.
+                                        	</div>
+                                        	<div class="col-2 text-center">
+                                        		<img class="user-testimoni-photo" src="assets/media/logo/companylogo.jpg">
+                                        		<p class="testimoni-jabatan">Kepala Desa</p>
+                                        		<p class="testimoni-nama">Ahmad Rifaldi</p>
+                                        	</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="card">
+                                    <div class="card-body card-testimoni">
+                                        <div class="row">
+                                        	<div class="col-10">
+                                        		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor vestibulum laoreet. Proin vitae laoreet ex, nec ultrices tellus. In urna enim, tempus et imperdiet ac, tempor in purus. Sed hendrerit lacus eu odio interdum, nec sodales mauris vestibulum. In egestas tortor erat, et dapibus quam consequat ut. Aliquam placerat mollis mi, ut pretium lacus aliquam sed. Suspendisse id elit et turpis mollis pulvinar. Ut quis felis sit amet purus elementum tempor vitae faucibus libero. Donec faucibus massa vitae risus vulputate cursus.
+                                        	</div>
+                                        	<div class="col-2 text-center">
+                                        		<img class="user-testimoni-photo" src="assets/media/logo/companylogo.jpg">
+                                        		<p class="testimoni-jabatan">Kepala Desa</p>
+                                        		<p class="testimoni-nama">Ahmad Rifaldi</p>
+                                        	</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="card">
+                                    <div class="card-body card-testimoni">
+                                        <div class="row">
+                                        	<div class="col-10">
+                                        		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor vestibulum laoreet. Proin vitae laoreet ex, nec ultrices tellus. In urna enim, tempus et imperdiet ac, tempor in purus. Sed hendrerit lacus eu odio interdum, nec sodales mauris vestibulum. In egestas tortor erat, et dapibus quam consequat ut. Aliquam placerat mollis mi, ut pretium lacus aliquam sed. Suspendisse id elit et turpis mollis pulvinar. Ut quis felis sit amet purus elementum tempor vitae faucibus libero. Donec faucibus massa vitae risus vulputate cursus.
+                                        	</div>
+                                        	<div class="col-2 text-center">
+                                        		<img class="user-testimoni-photo" src="assets/media/logo/companylogo.jpg">
+                                        		<p class="testimoni-jabatan">Kepala Desa</p>
+                                        		<p class="testimoni-nama">Ahmad Rifaldi</p>
+                                        	</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="card">
+                                    <div class="card-body card-testimoni">
+                                        <div class="row">
+                                        	<div class="col-10">
+                                        		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor vestibulum laoreet. Proin vitae laoreet ex, nec ultrices tellus. In urna enim, tempus et imperdiet ac, tempor in purus. Sed hendrerit lacus eu odio interdum, nec sodales mauris vestibulum. In egestas tortor erat, et dapibus quam consequat ut. Aliquam placerat mollis mi, ut pretium lacus aliquam sed. Suspendisse id elit et turpis mollis pulvinar. Ut quis felis sit amet purus elementum tempor vitae faucibus libero. Donec faucibus massa vitae risus vulputate cursus.
+                                        	</div>
+                                        	<div class="col-2 text-center">
+                                        		<img class="user-testimoni-photo" src="assets/media/logo/companylogo.jpg">
+                                        		<p class="testimoni-jabatan">Kepala Desa</p>
+                                        		<p class="testimoni-nama">Ahmad Rifaldi</p>
+                                        	</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="partner" class="space-subHeader">
+                <div class="row mb-5">
+                    <div class="col-md-12 text-center ">
+                        <h4 class="sub-judul">Partner Kami</h4>
+                    </div>
+                </div>
+                <div class="row mb-4 justify-content-center">
+                    <div class="col-md-3 text-center">
+                        <img class="partner-logo" src="assets/media/logo/companylogo.jpg">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img class="partner-logo" src="assets/media/logo/companylogo.jpg">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img class="partner-logo" src="assets/media/logo/companylogo.jpg">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img class="partner-logo" src="assets/media/logo/companylogo.jpg">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img class="partner-logo" src="assets/media/logo/companylogo.jpg">
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <img class="partner-logo" src="assets/media/logo/companylogo.jpg">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section id="footerSection">
+        <div class="row justify-content-center">
+            <div class="col-6 text-center">
+                <div class="card">
+                    <div class="card-body card-footer">
+                        <h4 style="color: white">Tertarik menggunakan Digides?</h4>
+                        <p>Request Demo untuk pelajari lebih lanjut tentang Digides!</p>
+                        <button class="btn btn-light btn-req-demo">Request Demo</button>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
-    <div class="jumbotron jumbotron-fluid bg-jumbotron">
-        <div class="container info-jumbotron text-center">
-            <h1 class="display-4">DIGITAL DESA</h1>
-            <p class="jumbo-p">Pintu gerbang digital masuk desa</p>
-            <p class="jumbo-p">Semangat era 4.0 sesuai dengan Permendagri no.47 2016 tentang Administrasi Pemerintah Desa </p>
-            <div class="row mt-4">
-                <div class="col-md-6 text-right">
-                    <button class="btn info-btn btn-primary">
-                        Request Demo
-                    </button>
-                </div>
-                <div class="col-md-6 text-left">
-                    <button class="btn info-btn btn-primary">
-                        Coba Gratis
-                    </button>
-                </div>
+        <div class="row footer-info">
+            <div class="col-4 text-right">
+                <p><i class="fa fa-phone-alt"></i> +62 823 4193 6222</p>
+            </div>
+            <div class="col-4 text-center">
+                <p> <i class="fa fa-envelope"></i> admin@upanastudio.com</p>
+            </div>
+            <div class="col-4 text-left">
+                <p>
+                    <i class="fa fa-map-marker-alt"></i>
+                    Ruko I Walk J/10 Ciputra Citraland,<br> &nbsp;
+                    Jl. Tun Abdul Razak<br>&nbsp;
+                    Sulawesi Selatan,<br>&nbsp;
+                    Kode Pos 92114
+                </p>
+            </div>
+            <div class="col-sm text-center powered-by">
+                <h6>2020 Powered by Upana Studio</h6>
             </div>
         </div>
+    </section>
+    <!-- floating whatsapp icon -->
+    <div class="icon-wrap">
+        <a target="_blank" href="#"><img id="waLogo" src="assets/media/logo/whatsapp.svg"></a>
     </div>
-    <div class="container">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce magna diam, dapibus nec ultrices non, venenatis cursus arcu. Suspendisse pulvinar fermentum justo. Pellentesque pulvinar ante mauris, at rutrum dui porttitor et. Nulla vel lorem volutpat, facilisis arcu vitae, ultrices nibh. Nullam et consectetur odio. Sed blandit, ipsum pulvinar porttitor dapibus, enim leo tempus nulla, ac volutpat tortor nisl eu nisi. Nam condimentum sapien in lorem imperdiet finibus. Morbi vulputate purus eu felis accumsan tempor. Duis venenatis a enim nec dictum. Vestibulum placerat, lectus nec luctus lobortis, purus augue feugiat nulla, ac interdum justo purus vel justo. Vestibulum malesuada dui a augue maximus consequat. Etiam posuere porttitor felis, sit amet consequat ex semper et. Morbi gravida, quam ac porta semper, erat arcu porttitor nulla, in bibendum ante quam eget tellus. Cras diam mauris, ornare id suscipit ac, sollicitudin vel ipsum. Duis egestas urna neque, in malesuada lectus hendrerit eu. Aenean id laoreet lacus.
-            Etiam velit orci, tincidunt et metus sed, luctus tincidunt neque. Sed augue metus, bibendum a urna sed, venenatis sollicitudin neque. In quis elit massa. Phasellus blandit egestas lorem, ac aliquet dui dictum eget. In pretium nulla in mauris vestibulum venenatis. Maecenas tellus leo, convallis eu tempus at, porta at enim. Nulla facilisi. Donec et lorem dapibus, laoreet diam sit amet, tristique augue. Phasellus vel sapien ac velit bibendum varius. Donec lobortis justo et eros sollicitudin gravida. Ut ante augue, tincidunt et mi sed, efficitur posuere erat. Proin dapibus, mauris sagittis ullamcorper efficitur, sem enim ullamcorper justo, ut rutrum sem mauris luctus justo. Etiam tempor tortor ac libero feugiat auctor. Maecenas tempor tincidunt justo, ut commodo sem maximus sit amet.
-            Nam tempus, massa sit amet lacinia bibendum, mi arcu porttitor nisi, sit amet efficitur ante sapien fringilla tellus. Integer nec nulla libero. Ut congue aliquet nunc, nec fermentum nibh rhoncus eget. Integer pretium nisi ut nulla consectetur, nec convallis felis congue. Nullam elementum ac ipsum eu tristique. Nam tempus posuere justo vel pellentesque. Curabitur quis odio faucibus, tincidunt lorem nec, eleifend est. Donec suscipit magna non tellus vulputate posuere. Mauris ornare, sapien vel malesuada tincidunt, arcu orci luctus lectus, vel dignissim augue felis sit amet est. Quisque vulputate tristique cursus. Nulla facilisi. Duis ac ligula eget sapien tincidunt accumsan ac vitae ante. Etiam rhoncus lacus nec lorem fringilla pulvinar. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque mattis sit amet arcu eget sagittis.
-            Suspendisse aliquet molestie metus ac blandit. Phasellus sodales id odio eget mattis. Suspendisse eleifend massa et luctus tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit pellentesque velit, in malesuada dui commodo iaculis. Praesent sit amet metus a lacus ultrices ultrices et in augue. Donec vel massa dui. Vivamus sit amet nunc non orci mollis dictum nec consectetur mi. Phasellus egestas venenatis felis, facilisis feugiat quam ultrices eget. Morbi placerat sapien lobortis, aliquet lectus eget, sodales leo. Maecenas iaculis neque at dui posuere, quis interdum nibh imperdiet. Proin ornare ornare porta. Aliquam non neque at orci sodales dictum rutrum ac erat. Cras ut lorem interdum, eleifend odio sit amet, tempus est.
-            Sed libero tortor, cursus vitae ligula et, consectetur posuere eros. Aliquam erat volutpat. Duis nulla dui, mattis imperdiet efficitur ac, molestie quis elit. Sed id orci in lorem euismod gravida. Cras id purus vitae sapien posuere sollicitudin nec et leo. Etiam ornare ligula vel arcu sollicitudin tempus. Suspendisse potenti. Nullam consequat ultricies laoreet. Praesent eget tortor feugiat, dignissim lectus eget, porttitor ligula. Ut arcu quam, pellentesque ut tortor ac, viverra laoreet tortor. Mauris molestie augue quis eros pretium aliquet. Quisque ultricies ex ut arcu porta, sit amet finibus odio tempus. Pellentesque egestas ex ipsum, id porttitor nunc condimentum ut. Aenean pretium dui scelerisque tellus luctus vulputate.
-        </p>
-    </div>
+    <!-- end floating whatsapp icon -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-
-
-        window.onscroll = function() { myFunction() };
-        var navbar = document.getElementById("navbar_mobile");
-        var sticky = navbar.offsetTop;
-        sticky = sticky + 70;
-
-        function myFunction() {
-            if (window.pageYOffset > sticky) {
-                navbar.classList.add("color-transparant");
-            } else {
-                navbar.classList.remove("color-transparant");
-            }
-        }
-
-
-    });
+    <script src="assets/js/scroll-navbar.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.min.js"></script>
+    <script>
+    $('.carousel-main').owlCarousel({
+        items: 1,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 5000,
+        margin: 10,
+        nav: true,
+        dots: false,
+        navText: ['<span class="fas fa-chevron-left fa-2x"></span>', '<span class="fas fa-chevron-right fa-2x"></span>'],
+    })
     </script>
 </body>
 
