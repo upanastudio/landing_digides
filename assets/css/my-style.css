@@ -8,6 +8,14 @@
         color: #1E465F;
     }
 
+    .center-v{
+        margin:auto;
+    }
+
+    .center-v p{
+        margin-bottom: 0px
+    }
+
     .sub-judul {
         font-weight: 600;
     }
@@ -234,3 +242,131 @@
     .testimoni-nama{
 
     }
+
+    .artikel-card{
+        /*min-height: 350px;*/
+    }
+
+    .artikel-thumbnail{
+        width: 100% !important;
+    }
+
+    .artikel-judul{
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin-top: 1rem;
+        margin-bottom: 0px;
+        line-height: 1.45;
+        color: #212529;
+    }
+
+    .artikel-tanggal{
+        font-size: .8rem;
+        color: gray;
+
+    }
+
+    .page-link{
+        color: #0e4962;
+    }
+
+    .page-item.active .page-link{
+        background-color: #0e4962;
+        border-color: #0e4962;
+    }
+
+    .img-adm{
+        width: 80% !important;
+    }
+
+    .fiturLain-card{
+        background-color: #C4C4C4;
+        border-radius: 10px;
+        padding: 40px 50px;
+        position: relative;
+    }
+
+    .fiturLain-img{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 50%;
+        border-radius: 100px;
+
+    }
+
+    .iturLain-info{
+        margin-bottom: 1rem;
+    }
+
+    .btn-ihat-fitur{
+        width: 50%;
+        height: 40px;
+        border-radius: 40px;
+        position: absolute;
+        bottom: -15px;
+        left: 25%;
+    }
+
+    .about-icon{
+        width: 100% !important;
+
+    }
+
+    .manfaat-icon{
+        width: 100% !important;
+    }
+
+    .tanpa-digides-card{
+        background-color: #FFCCBC;
+        border-radius: 10px;
+    }
+
+    .dengan-digides-card{
+        background-color: #B2EBF2;
+        border-radius: 10px;
+    }
+
+    .tanpa-digides-card,
+    .dengan-digides-card{
+        min-height: 120px;
+    }
+
+    .pos-rel{
+        position: relative;
+    }
+
+    .kontak-card{
+        position: absolute;
+        bottom: -7rem;
+        right: 1rem;
+        background-color: #0F4962;
+        border-radius: 10px;
+        width: 60%;
+        color: white !important;
+        padding: 2rem;
+    }
+
+    .kontak-card h4 {
+        color: white;
+    }
+
+    .btn-kirim{
+        width: 170px;
+        border-radius: 20px;
+        margin-top: 1rem;
+    }
+
+    .icon-manfaat{
+        font-size: 2.2rem;
+        color: #1E465F;
+    }
+
+    .img-head-artikel{
+        object-fit: cover;
+        width: 100%;
+        height: 350px;
+    }
+
+
+    @media (max-width: )
+
