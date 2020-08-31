@@ -1,0 +1,236 @@
+    html,
+    body {
+        overflow-x: hidden;
+        font-family: 'Poppins';
+    }
+
+    h4 {
+        color: #1E465F;
+    }
+
+    .sub-judul {
+        font-weight: 600;
+    }
+
+    .btn-primary {
+        background-color: #0F4962;
+        border: 1px solid #0F4962;
+    }
+
+    .btn-primary:hover {
+        background-color: #64b161;
+        border: 1px solid #64b161;
+    }
+
+    .mt-10{
+        margin-top: 5rem !important;
+    }
+
+    /* .btn-light{
+      border: 1px solid white;
+      background-color: transparent;
+      color: white
+    }*/
+    /*.btn-light:hover{
+      background-color: #212121;
+      color: white;
+    }
+*/
+    .jumbotron {
+        z-index: 0;
+        color: white;
+    }
+
+    .bg-jumbotron {
+        height: 500px;
+        background: url("https://pix10.agoda.net/hotelImages/461/461932/461932_15070708040031774865.jpg?s=1024x768") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+
+    }
+
+    .info-jumbotron {
+        margin-top: 6rem;
+    }
+
+    .jumbo-p {
+        margin-bottom: .25rem
+    }
+
+    .info-btn {
+        width: 180px;
+        border-radius: 20px;
+    }
+
+    .icon-wrap {
+        position: fixed;
+        top: 50%;
+        right: 15px;
+        z-index: 2;
+    }
+
+    #waLogo {
+        width: 50px;
+    }
+
+    #waLogo:hover {
+        width: 55px;
+    }
+
+    .card {
+        border: none;
+        background-color: transparent;
+    }
+
+    .card-footer {
+        margin-top: 5rem;
+        background-color: #0F4962;
+        color: white;
+        border-radius: 40px !important;
+        padding: 55px 10px;
+        z-index: 2;
+    }
+
+    .fitur-card {
+        background-color: #E1E1E1;
+    }
+
+    .fitur-card-body {
+        min-height: 300px;
+        background: url("https://pix10.agoda.net/hotelImages/461/461932/461932_15070708040031774865.jpg?s=1024x768") no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        border-radius: 10px;
+    }
+
+    .fitur-card-body i {
+        margin-top: 3rem;
+        font-size: 3.5rem;
+        color: white;
+    }
+
+    .btn-req-demo {
+        border-radius: 20px;
+        width: 170px;
+    }
+
+    .footer-info {
+        margin-top: -5rem;
+        padding: 7.5rem 10px;
+        padding-bottom: 5.5rem;
+        background-color: #C4C4C4;
+        position: relative;
+    }
+
+    .powered-by {
+        position: absolute;
+        bottom: 0px;
+    }
+
+    .space-subHeader {
+        padding: 4rem 0px;
+    }
+
+    .wrap-digidesfitur {
+        margin-top: 6rem;
+    }
+
+    .solusi-card {
+        background-color: #C4C4C4;
+        position: relative;
+    }
+
+
+    .solusi-icon {
+        width: 80px;
+    }
+
+    .solusi-judul-card {
+        font-size: 1.2rem;
+        font-weight: 500;
+
+    }
+
+    .solusi-lihat-fitur {
+        position: absolute;
+        bottom: 10px;
+        right: 25px;
+    }
+
+    .partner-logo {
+        width: 90%;
+        opacity: 0.5;
+    }
+
+    .partner-logo:hover {
+        opacity: 1;
+    }
+
+    .col-carousel {
+        margin: 70px 0;
+        width: 100%;
+    }
+
+    .owl-carousel {
+        padding: 0px 3rem;
+    }
+
+    /* owl nav */
+    .owl-prev span,
+    .owl-next span {
+        color: #0F4962;
+    }
+
+    .owl-prev span:hover,
+    .owl-next span:hover {
+        color: #8199A3;
+    }
+
+    .owl-prev,
+    .owl-next {
+        position: absolute;
+        top: 0;
+        height: 100%;
+    }
+
+    .owl-prev {
+        left: 7px;
+    }
+
+    .owl-next {
+        right: 7px;
+    }
+
+    /* removing blue outline from buttons */
+    button:focus,
+    button:active {
+        outline: none;
+    }
+
+
+    .card-testimoni {
+        background-color: #838A7E;
+        border-radius: 10px;
+        min-height: 280px;
+        padding: 4.5rem;
+        color: white;
+    }
+
+    .user-testimoni-photo{
+      width: 100% !important;
+    }
+
+    .testimoni-jabatan{
+      margin-top: .35rem;
+      font-weight: 600;
+      margin-bottom: 0;
+    }
+
+    .testimoni-nama{
+
+    }
