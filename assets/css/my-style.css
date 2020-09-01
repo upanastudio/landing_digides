@@ -73,12 +73,7 @@
         border-radius: 20px;
     }
 
-    .icon-wrap {
-        position: fixed;
-        top: 50%;
-        right: 15px;
-        z-index: 2;
-    }
+
 
     #waLogo {
         width: 50px;
@@ -373,6 +368,17 @@
 
     .artikel-penulis{
         margin-bottom: 0px !important;
+    }
+
+    #footerSection{
+        position: relative;
+    }
+
+    .icon-wrap {
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+        z-index: 2;
     }
 
 
