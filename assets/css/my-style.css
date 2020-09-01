@@ -381,6 +381,11 @@
         z-index: 2;
     }
 
+    .dropdown-item:focus,
+    .dropdown-item:hover{
+        background-color: rgb(145, 227, 120);
+    }
+
 
     @media (max-width: )
 
