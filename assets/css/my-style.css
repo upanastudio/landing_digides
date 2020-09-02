@@ -1,37 +1,37 @@
     html,
     body {
-        overflow-x: hidden;
-        font-family: 'Poppins';
+       overflow-x: hidden;
+       font-family: 'Poppins';
     }
 
     h4 {
-        color: #1E465F;
+       color: #1E465F;
     }
 
     .center-v {
-        margin: auto;
+       margin: auto;
     }
 
     .center-v p {
-        margin-bottom: 0px
+       margin-bottom: 0px
     }
 
     .sub-judul {
-        font-weight: 600;
+       font-weight: 600;
     }
 
     .btn-primary {
-        background-color: #0F4962;
-        border: 1px solid #0F4962;
+       background-color: #0F4962;
+       border: 1px solid #0F4962;
     }
 
     .btn-primary:hover {
-        background-color: #64b161;
-        border: 1px solid #64b161;
+       background-color: #64b161;
+       border: 1px solid #64b161;
     }
 
     .mt-10 {
-        margin-top: 5rem !important;
+       margin-top: 5rem !important;
     }
 
     /* .btn-light{
@@ -45,662 +45,670 @@
     }
 */
     .jumbotron {
-        z-index: 0;
-        color: white;
+       z-index: 0;
+       color: white;
     }
 
     .bg-jumbotron {
-        height: 500px;
-        background: url("https://pix10.agoda.net/hotelImages/461/461932/461932_15070708040031774865.jpg?s=1024x768") no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+       height: 500px;
+       background: url("https://pix10.agoda.net/hotelImages/461/461932/461932_15070708040031774865.jpg?s=1024x768") no-repeat center center fixed;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
 
 
     }
 
     .info-jumbotron {
-        margin-top: 6rem;
+       margin-top: 6rem;
     }
 
     .jumbo-p {
-        margin-bottom: .25rem
+       margin-bottom: .25rem
     }
 
     .info-btn {
-        width: 180px;
-        border-radius: 20px;
+       width: 180px;
+       border-radius: 20px;
     }
 
 
 
     #waLogo {
-        width: 50px;
+       width: 50px;
     }
 
     #waLogo:hover {
-        width: 55px;
+       width: 55px;
     }
 
     .card {
-        border: none;
-        background-color: transparent;
+       border: none;
+       background-color: transparent;
     }
 
     .card-footer {
-        margin-top: 5rem;
-        background-color: #0F4962;
-        color: white;
-        border-radius: 40px !important;
-        padding: 55px 10px;
-        z-index: 2;
+       margin-top: 5rem;
+       background-color: #0F4962;
+       color: white;
+       border-radius: 40px !important;
+       padding: 55px 10px;
+       z-index: 2;
     }
 
     .fitur-card {
-        background-color: #E1E1E1;
+       background-color: #E1E1E1;
     }
 
     .fitur-card-body {
-        min-height: 300px;
-        background: url("https://pix10.agoda.net/hotelImages/461/461932/461932_15070708040031774865.jpg?s=1024x768") no-repeat center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        border-radius: 10px;
+       min-height: 300px;
+       background: url("https://pix10.agoda.net/hotelImages/461/461932/461932_15070708040031774865.jpg?s=1024x768") no-repeat center center;
+       -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: cover;
+       border-radius: 10px;
     }
 
     .fitur-card-body i {
-        margin-top: 3rem;
-        font-size: 3.5rem;
-        color: white;
+       margin-top: 3rem;
+       font-size: 3.5rem;
+       color: white;
     }
 
     .btn-req-demo {
-        border-radius: 20px;
-        width: 170px;
+       border-radius: 20px;
+       width: 170px;
     }
 
     .footer-info {
-        margin-top: -5rem;
-        padding: 7.5rem 10px;
-        padding-bottom: 5.5rem;
-        background-color: #C4C4C4;
-        position: relative;
+       margin-top: -5rem;
+       padding: 7.5rem 10px;
+       padding-bottom: 5.5rem;
+       background-color: #C4C4C4;
+       position: relative;
     }
 
     .powered-by {
-        position: absolute;
-        bottom: 0px;
+       position: absolute;
+       bottom: 0px;
     }
 
     .space-subHeader {
-        padding: 4rem 0px;
+       padding: 4rem 0px;
     }
 
     .wrap-digidesfitur {
-        margin-top: 6rem;
+       margin-top: 6rem;
     }
 
     .solusi-card {
-        background-color: #C4C4C4;
-        position: relative;
+       background-color: #C4C4C4;
+       position: relative;
     }
 
 
     .solusi-icon {
-        width: 80px;
+       width: 80px;
     }
 
     .solusi-judul-card {
-        font-size: 1.2rem;
-        font-weight: 500;
+       font-size: 1.2rem;
+       font-weight: 500;
 
     }
 
     .solusi-lihat-fitur {
-        position: absolute;
-        bottom: 10px;
-        right: 25px;
+       position: absolute;
+       bottom: 10px;
+       right: 25px;
     }
 
     .partner-logo {
-        width: 90%;
-        opacity: 0.5;
+       width: 90%;
+       opacity: 1;
     }
 
-    .partner-logo:hover {
+    /*.partner-logo:hover {
         opacity: 1;
-    }
+    }*/
 
     .col-carousel {
-        margin: 70px 0;
-        width: 100%;
+       margin: 70px 0;
+       width: 100%;
     }
 
     .owl-carousel {
-        padding: 0px 3rem;
+       padding: 0px 3rem;
     }
 
     /* owl nav */
     .owl-prev span,
     .owl-next span {
-        color: #0F4962;
+       color: #0F4962;
     }
 
     .owl-prev span:hover,
     .owl-next span:hover {
-        color: #8199A3;
+       color: #8199A3;
     }
 
     .owl-prev,
     .owl-next {
-        position: absolute;
-        top: 0;
-        height: 100%;
+       position: absolute;
+       top: 0;
+       height: 100%;
     }
 
     .owl-prev {
-        left: 7px;
+       left: 7px;
     }
 
     .owl-next {
-        right: 7px;
+       right: 7px;
     }
 
     /* removing blue outline from buttons */
     button:focus,
     button:active {
-        outline: none;
+       outline: none;
     }
 
 
     .card-testimoni {
-        background-color: #838A7E;
-        border-radius: 10px;
-        min-height: 280px;
-        padding: 4.5rem;
-        color: white;
+       background-color: #838A7E;
+       border-radius: 10px;
+       min-height: 280px;
+       padding: 4.5rem;
+       color: white;
     }
 
     .user-testimoni-photo {
-        width: 100% !important;
+       width: 100% !important;
     }
 
     .testimoni-jabatan {
-        margin-top: .35rem;
-        font-weight: 600;
-        margin-bottom: 0;
+       margin-top: .35rem;
+       font-weight: 600;
+       margin-bottom: 0;
     }
 
     .testimoni-nama {}
 
     .artikel-card {
-        /*min-height: 350px;*/
+       min-height: 330px;
+       border: 2px solid #E0E0E0;
+       border-radius: 10px;
+       margin-bottom: 1.25rem;
     }
 
     .artikel-thumbnail {
-        width: 100% !important;
+       width: 100% !important;
     }
 
     .artikel-judul {
-        font-size: 1.2rem;
-        font-weight: 500;
-        margin-top: 1rem;
-        margin-bottom: 0px;
-        line-height: 1.45;
-        color: #212529;
+       font-size: 1.2rem;
+       font-weight: 500;
+       margin-top: 1rem;
+       margin-bottom: 0px;
+       line-height: 1.45;
+       color: #212529;
     }
 
-    .artikel-tanggal {
-        font-size: .8rem;
-        color: gray;
+    .artikel-tanggal,
+    .artikel-penulis {
+       font-size: .8rem;
+       color: gray;
 
     }
 
     .page-link {
-        color: #0e4962;
+       color: #0e4962;
     }
 
     .page-item.active .page-link {
-        background-color: #0e4962;
-        border-color: #0e4962;
+       background-color: #0e4962;
+       border-color: #0e4962;
     }
 
     .img-adm {
-        width: 80% !important;
+       width: 80% !important;
     }
 
     .fiturLain-card {
-        background-color: #C4C4C4;
-        border-radius: 10px;
-        padding: 40px 50px;
-        position: relative;
+       background-color: #C4C4C4;
+       border-radius: 10px;
+       padding: 40px 50px;
+       position: relative;
     }
 
     .fiturLain-img {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        width: 50%;
-        border-radius: 100px;
+       margin-top: 1rem;
+       margin-bottom: 1rem;
+       width: 50%;
+       border-radius: 100px;
 
     }
 
     .iturLain-info {
-        margin-bottom: 1rem;
+       margin-bottom: 1rem;
     }
 
     .btn-ihat-fitur {
-        width: 50%;
-        height: 40px;
-        border-radius: 40px;
-        position: absolute;
-        bottom: -15px;
-        left: 25%;
+       width: 50%;
+       height: 40px;
+       border-radius: 40px;
+       position: absolute;
+       bottom: -15px;
+       left: 25%;
     }
 
     .about-icon {
-        width: 100% !important;
+       width: 100% !important;
 
     }
 
     .manfaat-icon {
-        width: 100% !important;
+       width: 100% !important;
     }
 
     .tanpa-digides-card {
-        background-color: #FFCCBC;
-        border-radius: 10px;
+       background-color: #FFCCBC;
+       border-radius: 10px;
     }
 
     .dengan-digides-card {
-        background-color: #B2EBF2;
-        border-radius: 10px;
+       background-color: #B2EBF2;
+       border-radius: 10px;
     }
 
     .tanpa-digides-card,
     .dengan-digides-card {
-        min-height: 120px;
+       min-height: 120px;
     }
 
     .pos-rel {
-        position: relative;
+       position: relative;
     }
 
     .kontak-card {
-        position: absolute;
-        bottom: -7rem;
-        right: 1rem;
-        background-color: #0F4962;
-        border-radius: 10px;
-        width: 60%;
-        color: white !important;
-        padding: 2rem;
+       position: absolute;
+       bottom: -7rem;
+       right: 1rem;
+       background-color: #0F4962;
+       border-radius: 10px;
+       width: 60%;
+       color: white !important;
+       padding: 2rem;
     }
 
     .kontak-card h4 {
-        color: white;
+       color: white;
     }
 
     .btn-kirim {
-        width: 170px;
-        border-radius: 20px;
-        margin-top: 1rem;
+       width: 170px;
+       border-radius: 20px;
+       margin-top: 1rem;
     }
 
     .icon-manfaat {
-        font-size: 2.2rem;
-        color: #1E465F;
+       font-size: 2.2rem;
+       color: #1E465F;
     }
 
     .img-head-artikel {
-        object-fit: cover;
-        width: 100%;
-        height: 350px;
+       object-fit: cover;
+       width: 100%;
+       height: 350px;
     }
 
     .link-lihat-fitur {
-        color: #027d11;
+       color: #027d11;
     }
 
     .artikel-penulis {
-        margin-bottom: 0px !important;
+       margin-bottom: 0px !important;
     }
 
     #footerSection {
-        position: relative;
+       position: relative;
     }
 
     .icon-wrap {
-        position: absolute;
-        bottom: 30px;
-        right: 30px;
-        z-index: 2;
+       position: absolute;
+       bottom: 30px;
+       right: 30px;
+       z-index: 2;
     }
 
     .dropdown-item:focus,
     .dropdown-item:hover {
-        background-color: rgb(145, 227, 120);
+       background-color: rgb(145, 227, 120);
     }
 
     .navbar-dark .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     }
 
     .info-telp {
-        text-align: right;
+       text-align: right;
     }
 
     .info-email {
-        text-align: center;
+       text-align: center;
     }
 
     .info-alamat {
-        text-align: left;
+       text-align: left;
+    }
+
+    .icon-fitur{
+        font-size: 1.5rem;
     }
 
 
     @media (max-width: 990px) {
-        .dropdown-menu {
-            background-color: transparent;
-            border: none;
+       .dropdown-menu {
+          background-color: transparent;
+          border: none;
 
-        }
+       }
 
-        .d-none-mobile {
-            display: none;
-        }
+       .d-none-mobile {
+          display: none;
+       }
 
-        .dropdown-item {
-            color: white;
-            margin-left: 30px;
-        }
+       .dropdown-item {
+          color: white;
+          margin-left: 30px;
+       }
 
-        .solusi-icon {
-            width: 100%;
-        }
+       .solusi-icon {
+          width: 100%;
+       }
 
-        .card-testimoni {
-            padding: 1.5rem;
-        }
+       .card-testimoni {
+          padding: 1.5rem;
+       }
 
-        .card-footer {
-            margin-top: 2.5rem;
-            padding: 1.5rem;
-        }
+       .card-footer {
+          margin-top: 2.5rem;
+          padding: 1.5rem;
+       }
 
-        .footer-info {
-            margin-top: -2rem;
-            padding: 4.5rem 10px;
-            padding-bottom: 2rem;
-        }
+       .footer-info {
+          margin-top: -2rem;
+          padding: 4.5rem 10px;
+          padding-bottom: 2rem;
+       }
 
-        .footer-info p {
-            font-size: .8rem;
-        }
+       .footer-info p {
+          font-size: .8rem;
+       }
 
-        .powered-by {
-            margin-top: 1rem;
-            position: relative;
-        }
+       .powered-by {
+          margin-top: 1rem;
+          position: relative;
+       }
 
-        .info-telp {
-            text-align: center;
-        }
+       .info-telp {
+          text-align: center;
+       }
 
-        .info-email {
-            text-align: center;
-        }
+       .info-email {
+          text-align: center;
+       }
 
-        .info-alamat {
-            text-align: center;
-        }
+       .info-alamat {
+          text-align: center;
+       }
 
-        .icon-wrap {
-            bottom: 2rem;
-            right: 1.5rem;
-        }
+       .icon-wrap {
+          bottom: 2rem;
+          right: 1.5rem;
+       }
 
-        .about-sub {
-            font-size: 2rem;
-        }
+       .about-sub {
+          font-size: 2rem;
+       }
 
-        .mt-10 {
-            margin-top: 3rem !important;
-        }
+       .mt-10 {
+          margin-top: 3rem !important;
+       }
 
-        .tanpa-digides-card,
-        .dengan-digides-card {
-            min-height: 145px;
-        }
+       .tanpa-digides-card,
+       .dengan-digides-card {
+          min-height: 145px;
+       }
 
-        .fiturLain-card {
-            padding: 20px 20px;
+       .fiturLain-card {
+          padding: 20px 20px;
 
-        }
+       }
 
-        .kontak-card{
-            width: 70%;
-        }
+       .kontak-card {
+          width: 70%;
+       }
     }
 
     @media (max-width: 420px) {
-        .wrap-div {
-            display: -webkit-box;
-            display: -moz-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-            display: flex;
-            -webkit-box-orient: vertical;
-            -moz-box-orient: vertical;
-            -webkit-flex-direction: column;
-            -ms-flex-direction: column;
-            flex-direction: column;
-            /* optional */
-            -webkit-box-align: start;
-            -moz-box-align: start;
-            -ms-flex-align: start;
-            -webkit-align-items: flex-start;
-            align-items: flex-start;
+       .wrap-div {
+          display: -webkit-box;
+          display: -moz-box;
+          display: -ms-flexbox;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -moz-box-orient: vertical;
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          /* optional */
+          -webkit-box-align: start;
+          -moz-box-align: start;
+          -ms-flex-align: start;
+          -webkit-align-items: flex-start;
+          align-items: flex-start;
 
-        }
+       }
 
-        .wrap-div .first-div {
-            -webkit-box-ordinal-group: 2;
-            -moz-box-ordinal-group: 2;
-            -ms-flex-order: 2;
-            -webkit-order: 2;
-            order: 2;
-        }
+       .wrap-div .first-div {
+          -webkit-box-ordinal-group: 2;
+          -moz-box-ordinal-group: 2;
+          -ms-flex-order: 2;
+          -webkit-order: 2;
+          order: 2;
+       }
 
-        .wrap-div .second-div {
-            -webkit-box-ordinal-group: 1;
-            -moz-box-ordinal-group: 1;
-            -ms-flex-order: 1;
-            -webkit-order: 1;
-            order: 1;
-        }
-
-
+       .wrap-div .second-div {
+          -webkit-box-ordinal-group: 1;
+          -moz-box-ordinal-group: 1;
+          -ms-flex-order: 1;
+          -webkit-order: 1;
+          order: 1;
+       }
 
 
-        .nav-logo {
-            width: 100px;
-        }
-
-        .display-4 {
-            font-size: 2.5rem;
-        }
-
-        #jumbotronSection p {
-            font-size: .8rem;
-        }
-
-        .info-btn {
-            width: 100%;
-            margin-bottom: 1rem;
-        }
-
-        .space-subHeader {
-            padding: 2.5rem 0;
-        }
-
-        .fitur-card {
-            margin-top: 2rem;
-        }
-
-        .solusi-card {
-            margin-bottom: 1rem;
-        }
-
-        .solusi-card p {
-            font-size: .9rem;
-        }
-
-        .solusi-judul-card {
-            font-size: 1.1rem !important;
-        }
-
-        .solusi-lihat-fitur {
-            bottom: 5px;
-            right: 20px;
-        }
-
-        .col-carousel {
-            margin: 40px 0;
-        }
-
-        .owl-carousel {
-            padding: 0px .5rem;
-        }
-
-        .user-testimoni-photo {
-            margin-top: 2rem;
-            width: 60% !important;
-            position: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        #testimoni {
-            font-size: .725rem;
-        }
-
-        .owl-prev {
-            left: -5px;
-        }
-
-        .owl-next {
-            right: -5px;
-        }
 
 
-        .card-footer h4 {
-            font-size: 1.15rem
-        }
+       .nav-logo {
+          width: 100px;
+       }
 
-        .card-footer p {
-            font-size: .9rem;
-        }
+       .display-4 {
+          font-size: 2.5rem;
+       }
 
-        .footer-info {
-            margin-top: -5rem;
-            padding: 7.5rem 0;
-            padding-bottom: 1rem;
-        }
+       #jumbotronSection p {
+          font-size: .8rem;
+       }
 
-        .icon-wrap {
-            bottom: 12rem;
-            right: 10px;
-        }
+       .info-btn {
+          width: 100%;
+          margin-bottom: 1rem;
+       }
 
-        #waLogo {
-            width: 40px;
-        }
+       .space-subHeader {
+          padding: 2.5rem 0;
+       }
 
-        #waLogo:hover {
-            width: 45px;
-        }
+       .fitur-card {
+          margin-top: 2rem;
+       }
 
-        .about-sub {
-            font-size: 1.5rem;
-        }
+       .solusi-card {
+          margin-bottom: 1rem;
+       }
 
-        #aboutContent p {
-            font-size: .9rem;
-        }
+       .solusi-card p {
+          font-size: .9rem;
+       }
 
-        .info-pembeda {
-            font-size: 1rem;
-        }
+       .solusi-judul-card {
+          font-size: 1.1rem !important;
+       }
 
-        .tanpa-digides-card h5,
-        .dengan-digides-card h5 {
-            font-size: 1rem;
-        }
+       .solusi-lihat-fitur {
+          bottom: 5px;
+          right: 20px;
+       }
 
-        .tanpa-digides-card p,
-        .dengan-digides-card p {
-            font-size: .85rem;
-        }
+       .col-carousel {
+          margin: 40px 0;
+       }
 
-        .tanpa-digides-card,
-        .dengan-digides-card {
-            min-height: 190px;
-        }
+       .owl-carousel {
+          padding: 0px .5rem;
+       }
 
-        #administrasiDesa p {
-            font-size: .9rem;
-        }
+       .user-testimoni-photo {
+          margin-top: 2rem;
+          width: 60% !important;
+          position: block;
+          margin-left: auto;
+          margin-right: auto;
+       }
 
-        .img-adm {
-            margin-bottom: 2rem;
-        }
+       #testimoni {
+          font-size: .725rem;
+       }
 
-        .fiturLain-card {
-            margin-bottom: 3rem;
-        }
+       .owl-prev {
+          left: -5px;
+       }
 
-        #administrasiUmum,
-        #administrasiPenduduk,
-        #administrasiKeuangan,
-        #administrasiPembangunan,
-        #administrasiLainnya,
-        #administrasiUmum,
-        #manajemenPajak {
-            margin-bottom: 5rem;
-        }
+       .owl-next {
+          right: -5px;
+       }
 
-        .kontak-card{
-            width: 90%;
-            bottom: -4rem;
-            padding: .5rem;
-            margin-left: 50%;
-        }
 
-        .kontak-card .card-body{
-            padding: 1rem;
-        }
+       .card-footer h4 {
+          font-size: 1.15rem
+       }
 
-        .kontak-card h4 {
-            font-size: 1.2rem;
-        }
+       .card-footer p {
+          font-size: .9rem;
+       }
 
-        .kontak-card p{
-            font-size: .9rem;
-        }
+       .footer-info {
+          margin-top: -5rem;
+          padding: 7.5rem 0;
+          padding-bottom: 1rem;
+       }
 
-        .btn-kirim{
-            width: 100%;
-        }
+       .icon-wrap {
+          bottom: 12rem;
+          right: 10px;
+       }
 
-        .img-head-artikel{
-            height: 200px;
-        }
+       #waLogo {
+          width: 40px;
+       }
 
-        #artikelJudul{
-            font-size: 1.25rem;
-        }
+       #waLogo:hover {
+          width: 45px;
+       }
+
+       .about-sub {
+          font-size: 1.5rem;
+       }
+
+       #aboutContent p {
+          font-size: .9rem;
+       }
+
+       .info-pembeda {
+          font-size: 1rem;
+       }
+
+       .tanpa-digides-card h5,
+       .dengan-digides-card h5 {
+          font-size: 1rem;
+       }
+
+       .tanpa-digides-card p,
+       .dengan-digides-card p {
+          font-size: .85rem;
+       }
+
+       .tanpa-digides-card,
+       .dengan-digides-card {
+          min-height: 190px;
+       }
+
+       #administrasiDesa p {
+          font-size: .9rem;
+       }
+
+       .img-adm {
+          margin-bottom: 2rem;
+       }
+
+       .fiturLain-card {
+          margin-bottom: 3rem;
+       }
+
+       #administrasiUmum,
+       #administrasiPenduduk,
+       #administrasiKeuangan,
+       #administrasiPembangunan,
+       #administrasiLainnya,
+       #administrasiUmum,
+       #manajemenPajak {
+          margin-bottom: 5rem;
+       }
+
+       .kontak-card {
+          width: 90%;
+          bottom: -4rem;
+          padding: .5rem;
+          margin-left: 50%;
+       }
+
+       .kontak-card .card-body {
+          padding: 1rem;
+       }
+
+       .kontak-card h4 {
+          font-size: 1.2rem;
+       }
+
+       .kontak-card p {
+          font-size: .9rem;
+       }
+
+       .btn-kirim {
+          width: 100%;
+       }
+
+       .img-head-artikel {
+          height: 200px;
+       }
+
+       #artikelJudul {
+          font-size: 1.25rem;
+       }
 
     }
