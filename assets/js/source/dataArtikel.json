@@ -1,0 +1,30 @@
+{
+  "data": [
+  {
+    "no": "1",
+    "tanggal": "20/11/2020",
+    "judul": "Lorem Ipsum Satu",
+    "aksi": null
+  },
+  {
+    "no": "2",
+    "tanggal": "20/11/2020",
+    "judul": "Lorem Ipsum Dua",
+    "aksi": null
+  },  {
+    "no": "3",
+    "tanggal": "20/11/2020",
+    "judul": "Lorem Ipsum Tiga",
+    "aksi": null
+  },  {
+    "no": "4",
+    "tanggal": "20/11/2020",
+    "judul": "Lorem Ipsum Empat",
+    "aksi": null
+  },  {
+    "no": "5",
+    "tanggal": "20/11/2020",
+    "judul": "Lorem Ipsum Lima",
+    "aksi": null
+  }]
+}
