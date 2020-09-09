@@ -415,6 +415,10 @@
       min-height: 430px !important;
     }
 
+    .solusi-card-body{
+      min-height: 235px;
+    }
+
 
     @media (max-width: 990px) {
       .dropdown-menu {
