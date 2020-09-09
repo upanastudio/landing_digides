@@ -273,7 +273,7 @@
     }
 
     .img-adm {
-      width: 80% !important;
+      width: 50% !important;
     }
 
     .fiturLain-card {
@@ -281,6 +281,7 @@
       border-radius: 10px;
       padding: 40px 50px;
       position: relative;
+      min-height: 548px;
     }
 
     .fiturLain-img {
@@ -298,12 +299,12 @@
       margin-bottom: 1rem;
     }
 
-    .btn-ihat-fitur {
+    .btn-lihat-fitur {
       width: 50%;
       height: 40px;
       border-radius: 40px;
       position: absolute;
-      bottom: -15px;
+      bottom: 12.5px;
       left: 25%;
     }
 
@@ -317,13 +318,23 @@
     }
 
     .tanpa-digides-card {
-      background-color: #FFCCBC;
+      background-color: #6c757d;
       border-radius: 10px;
     }
 
+    .tanpa-digides-card h5,
+    .tanpa-digides-card p{
+      color: white;
+    }
+
     .dengan-digides-card {
-      background-color: #B2EBF2;
+      background-color: #518F83;
       border-radius: 10px;
+    }
+
+    .dengan-digides-card h5,
+    .dengan-digides-card p{
+      color: white;
     }
 
     .tanpa-digides-card,
@@ -358,7 +369,7 @@
 
     .icon-manfaat {
       font-size: 2.2rem;
-      color: #1E465F;
+      color: #F8A23D;
     }
 
     .img-head-artikel {
@@ -409,6 +420,7 @@
 
     .icon-fitur {
       font-size: 1.5rem;
+      color: #F8A23D;
     }
 
     .fitur-carousel.owl-drag .owl-item {
@@ -679,6 +691,7 @@
 
       .img-adm {
         margin-bottom: 2rem;
+
       }
 
       .fiturLain-card {
