@@ -748,11 +748,15 @@
       }
 
       .img-adm{
-        width: 100% !important;
+        width: 60% !important;
       }
 
       .partner-logo{
         width: 100%;
+      }
+
+      .sub-judul{
+        margin-top: 0px !important;
       }
 
 
