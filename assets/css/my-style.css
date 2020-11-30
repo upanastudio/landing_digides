@@ -5,7 +5,7 @@
     }
 
     h4 {
-      color: #1E465F;
+      color: #327A6D;
     }
 
     .center-v {
@@ -21,14 +21,26 @@
     }
 
     .btn-primary {
-      background-color: #0F4962;
-      border: 1px solid #0F4962;
+      background-color: #327A6D;
+      border: 1px solid #327A6D;
     }
 
     .btn-primary:hover {
-      background-color: #64b161;
-      border: 1px solid #64b161;
+      background-color: #27B45F;
+      border: 1px solid #27B45F;
     }
+
+    .btn-secondary {
+      background-color: #F8A23D;
+      border: 1px solid #F8A23D;
+      color: #202020;
+    }
+
+    .btn-secondary:hover {
+      background-color: #E99737;
+      border: 1px solid #E99737;
+    }
+
 
     .mt-10 {
       margin-top: 5rem !important;
@@ -90,7 +102,7 @@
 
     .card-footer {
       margin-top: 5rem;
-      background-color: #0F4962;
+      background-color: #327A6D;
       color: white;
       border-radius: 40px !important;
       padding: 55px 10px;
@@ -126,7 +138,7 @@
       margin-top: -5rem;
       padding: 7.5rem 10px;
       padding-bottom: 5.5rem;
-      background-color: #C4C4C4;
+      background-color: #CBE3D9;
       position: relative;
     }
 
@@ -144,13 +156,14 @@
     }
 
     .solusi-card {
-      background-color: #C4C4C4;
+      background-color: #CBE3D9;
       position: relative;
     }
 
 
     .solusi-icon {
-      width: 80px;
+      /*width: 80px;*/
+      width: 100%;
     }
 
     .solusi-judul-card {
@@ -217,10 +230,10 @@
 
 
     .card-testimoni {
-      background-color: #838A7E;
+      background-color: #518f83;
       border-radius: 10px;
       min-height: 280px;
-      padding: 4.5rem;
+      padding: 2.5rem;
       color: white;
     }
 
@@ -277,7 +290,7 @@
     }
 
     .fiturLain-card {
-      background-color: #C4C4C4;
+      background-color: #EAF8EF;
       border-radius: 10px;
       padding: 40px 50px;
       position: relative;
@@ -323,7 +336,7 @@
     }
 
     .tanpa-digides-card h5,
-    .tanpa-digides-card p{
+    .tanpa-digides-card p {
       color: white;
     }
 
@@ -333,7 +346,7 @@
     }
 
     .dengan-digides-card h5,
-    .dengan-digides-card p{
+    .dengan-digides-card p {
       color: white;
     }
 
@@ -350,7 +363,7 @@
       position: absolute;
       bottom: -7rem;
       right: 1rem;
-      background-color: #0F4962;
+      background-color: #327A6D;
       border-radius: 10px;
       width: 60%;
       color: white !important;
@@ -392,15 +405,17 @@
 
     .icon-wrap {
       position: absolute;
-      bottom: 30px;
+      bottom: 10px;
       right: 30px;
-      z-index: 2;
+      z-index: 2;    }
+
+    #keamananDataLogo{
+      width: 175px;
+    }
+    #keamananDataLogo:hover{
+      width: 180px;
     }
 
-    .dropdown-item:focus,
-    .dropdown-item:hover {
-      background-color: rgb(145, 227, 120);
-    }
 
     .navbar-dark .navbar-toggler-icon {
       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -427,8 +442,20 @@
       min-height: 430px !important;
     }
 
-    .solusi-card-body{
+    .solusi-card-body {
       min-height: 235px;
+    }
+
+    .halaman-kosong {
+      height: 500px;
+    }
+
+    .img-header {
+      width: 70% !important;
+    }
+
+    .icon-manfaat-digides{
+      width: 60%;
     }
 
 
@@ -743,21 +770,23 @@
         min-height: 350px !important;
       }
 
-      .fiturLain-img{
+      .fiturLain-img {
         width: 50% !important;
       }
 
-      .img-adm{
-        width: 60% !important;
+      .img-adm {
+        width: 65% !important;
       }
 
-      .partner-logo{
+      .partner-logo {
         width: 100%;
       }
 
-      .sub-judul{
-        margin-top: 0px !important;
+      .testimoni-nama{
+        margin-bottom: 1.5rem !important;
       }
+
+
 
 
     }

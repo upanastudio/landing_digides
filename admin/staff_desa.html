@@ -14,12 +14,14 @@
   <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
   <!-- Custom styles for this template-->
   <link href="../assets/css/sb-admin-2.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="https://bootstrap-tagsinput.github.io/bootstrap-tagsinput/dist/bootstrap-tagsinput.css">
-  <link rel="stylesheet" type="text/css" href="../assets/css/typeheadjs.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/dataTables.bootstrap4.css">
   <link href="../assets/css/my-style-admin.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
   <!-- favicon -->
   <link rel="icon" type="image/png" href="../assets/media/misc/android-icon-144x144.png" />
+  <style type="text/css">
+  </style>
 </head>
 
 <body id="page-top">
@@ -138,86 +140,88 @@
         <div id="currentPage" class="container-fluid">
           <!-- Page Heading -->
           <div class="card mb-4">
-            <div class="card-body">
-              <div class="row justify-content-center">
-                <div class="col-md-3 mb-3">
-                  <a href="desa_aktif.html" class="stretched-link">
-                    <div class="card card-adm-umum">
-                      <div class="card-body">
-                        <img class="icon-card" id="iconCard" name="iconCard" src="../assets/img/iconCard/desa.svg">
-                        <p class="jumlah-card" id="jumlahCard" name="jumlahCard">160</p>
-                        <p class="penjelasan-card text-center" id="penjelasanCard" name="penjelasanCard">Desa Aktif</p>
-                      </div>
-                    </div>
-                  </a>
+            <div class="card-header">
+              <div class="row">
+                <div class="col-md-6">
+                  <img class="icon-header-card" width="40px" style="margin-right: 10px;" id="iconCard" name="iconCard" src="../assets/img/iconCard/staff-desa.svg"></i> Staff Desa
                 </div>
-                <div class="col-md-3 mb-3">
-                  <a href="staff_desa.html" class="stretched-link">
-                    <div class="card card-adm-umum">
-                      <div class="card-body">
-                        <img class="icon-card" id="iconCard" name="iconCard" src="../assets/img/iconCard/staff-desa.svg">
-                        <p class="jumlah-card" id="jumlahCard" name="jumlahCard">5600</p>
-                        <p class="penjelasan-card text-center" id="penjelasanCard" name="penjelasanCard">Staff Desa</p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-md-3 mb-3">
-                  <a href="user_mobile.html" class="stretched-link">
-                    <div class="card card-adm-umum">
-                      <div class="card-body">
-                        <img class="icon-card" id="iconCard" name="iconCard" src="../assets/img/iconCard/user-mobile.svg">
-                        <p class="jumlah-card" id="jumlahCard" name="jumlahCard">1459</p>
-                        <p class="penjelasan-card text-center" id="penjelasanCard" name="penjelasanCard">User Mobile</p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-md-3 mb-3">
-                  <a href="permintaan_pelayanan.html" class="stretched-link">
-                    <div class="card card-adm-umum">
-                      <div class="card-body">
-                        <img class="icon-card" id="iconCard" name="iconCard" src="../assets/img/iconCard/pelayanan.svg">
-                        <p class="jumlah-card" id="jumlahCard" name="jumlahCard">11200</p>
-                        <p class="penjelasan-card text-center" id="penjelasanCard" name="penjelasanCard">Permintaan Pelayanan</p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-md-3 mb-3">
-                  <a href="data_penduduk.html" class="stretched-link">
-                    <div class="card card-adm-umum">
-                      <div class="card-body">
-                        <img class="icon-card" id="iconCard" name="iconCard" src="../assets/img/iconCard/penduduk.svg">
-                        <p class="jumlah-card" id="jumlahCard" name="jumlahCard">90500</p>
-                        <p class="penjelasan-card text-center" id="penjelasanCard" name="penjelasanCard">Data Penduduk</p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-md-3 mb-3">
-                  <a href="data_administrasi.html" class="stretched-link">
-                    <div class="card card-adm-umum">
-                      <div class="card-body">
-                        <img class="icon-card" id="iconCard" name="iconCard" src="../assets/img/iconCard/administrasi.svg">
-                        <p class="jumlah-card" id="jumlahCard" name="jumlahCard">80100</p>
-                        <p class="penjelasan-card text-center" id="penjelasanCard" name="penjelasanCard">Data Administrasi</p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="col-md-3 mb-3">
-                  <a href="data_pelayanan.html" class="stretched-link">
-                    <div class="card card-adm-umum">
-                      <div class="card-body">
-                        <img class="icon-card" id="iconCard" name="iconCard" src="../assets/img/iconCard/dataPelayanan.svg">
-                        <p class="jumlah-card" id="jumlahCard" name="jumlahCard">67890</p>
-                        <p class="penjelasan-card text-center" id="penjelasanCard" name="penjelasanCard">Data Pelayanan</p>
-                      </div>
-                    </div>
-                  </a>
+                <div class="offset-1 col-5">
+                  <div id="datepicker">
+                    <i class="fa fa-calendar"></i>&nbsp;
+                    <span></span> <i class="fa fa-caret-down"></i>
+                  </div>
                 </div>
               </div>
+            </div>
+            <div class="card-body">
+              <section id="filterTable" class="mb-3">
+                <div class="row mb-3">
+                  <div class="col-md-3">
+                    <label>Provinsi</label>
+                    <select id="filterProvinsi" class="select2" name="state">
+                      <option value="">Pilih Provinsi</option>
+                      <option value="provinsi A">Provinsi A</option>
+                      <option value="provinsi B">Provinsi B</option>
+                      <option value="provinsi C">Provinsi C</option>
+                      <option value="provinsi D">Provinsi D</option>
+                      <option value="provinsi E">Provinsi E</option>
+                      <option value="provinsi F">Provinsi F</option>
+                    </select>
+                  </div>
+                  <div class="col-md-3">
+                    <label>Kabupaten</label>
+                    <select id="filterKabupaten" class="select2" name="state">
+                      <option value="">Pilih Kabupaten</option>
+                      <option value="Kabupaten A">Kabupaten A</option>
+                      <option value="Kabupaten B">Kabupaten B</option>
+                      <option value="Kabupaten C">Kabupaten C</option>
+                      <option value="Kabupaten D">Kabupaten D</option>
+                      <option value="Kabupaten E">Kabupaten E</option>
+                      <option value="Kabupaten F">Kabupaten F</option>
+                    </select>
+                  </div>
+                  <div class="col-md-3">
+                    <label>Kecamatan</label>
+                    <select id="filterKecamatan" class="select2" name="state">
+                      <option value="">Pilih Kecamatan</option>
+                      <option value="Kecamatan A">Kecamatan A</option>
+                      <option value="Kecamatan B">Kecamatan B</option>
+                      <option value="Kecamatan C">Kecamatan C</option>
+                      <option value="Kecamatan D">Kecamatan D</option>
+                      <option value="Kecamatan E">Kecamatan E</option>
+                      <option value="Kecamatan F">Kecamatan F</option>
+                    </select>
+                  </div>
+                  <div class="col-md-3">
+                    <label>Desa</label>
+                    <select id="filterDesa" class="select2" name="state">
+                      <option value="">Pilih Desa</option>
+                      <option value="Desa A">Desa A</option>
+                      <option value="Desa B">Desa B</option>
+                      <option value="Desa C">Desa C</option>
+                      <option value="Desa D">Desa D</option>
+                      <option value="Desa E">Desa E</option>
+                      <option value="Desa F">Desa F</option>
+                    </select>
+                  </div>
+                </div>
+              </section>
+              <section id="dataTable">
+                <table id="tableStaffDesa" class="table table" style="width:100%" cellspacing="0">
+                  <thead class="thead-dark bg-table">
+                    <tr>
+                      <th class="sorting_disabled" style="border-radius: 5px 0px 0px 0px">No</th>
+                      <th>Tanggal</th>
+                      <th>Kode Desa</th>
+                      <th>Provinsi</th>
+                      <th>Kabupaten/Kota</th>
+                      <th>Kecamatan</th>
+                      <th>Desa/Kelurahan</th>
+                      <th style="border-radius: 0px 5px 0px 0px">Jumlah</th>
+                    </tr>
+                  </thead>
+                </table>
+              </section>
             </div>
           </div>
         </div>
@@ -265,54 +269,118 @@
   <!-- Core plugin JavaScript-->
   <!-- Custom scripts for all pages-->
   <script src="../assets/js/sb-admin-2.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.js"></script>
-  <script src="https://bootstrap-tagsinput.github.io/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js"></script>
-  <script src="https://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script>
+  <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.17.2/dist/sweetalert2.all.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
   <script>
   $(document).ready(function() {
-    $('#isiArtikel').summernote({
-      tabsize: 2,
-      height: 400
+    var table = $('#tableStaffDesa').DataTable({
+      "pageLength" : 10,
+
+      "ajax": "../assets/js/source/dataDesaAktif.json",
+      "columns": [{
+          "data": "no",
+
+        },
+        {
+          "data": "tanggal"
+        },
+        {
+          "data": "kodeDesa"
+        },
+        {
+          "data": "provinsi",
+        },
+        {
+          "data": "kabkot",
+        },
+        {
+          "data": "kecamatan",
+        },
+        {
+          "data": "desa",
+        },
+        {
+          "data": "jumlahStaff",
+        }
+
+      ],
+      "columnDefs": [
+        { "sortable": false, "targets": [0, 1, 2, 3, 4, 5, 6, 7] },
+        {
+          "targets": 0,
+          "width": "5%",
+          "className": "text-center",
+        },
+        {
+          "targets": 2,
+          "width": "15%",
+          "className": "text-center"
+        },
+        {
+          "targets": -1,
+          "className": "text-center"
+        }
+
+      ]
     });
 
+    $("#datepicker").on("apply.daterangepicker", function(ev, picker) {
+      minDateFilter = Date.parse(picker.startDate);
+      maxDateFilter = Date.parse(picker.endDate);
+
+      $.fn.dataTable.ext.search.push(function(settings, data, dataIndex) {
+        var date = Date.parse(data[1]);
+
+        if (
+          (isNaN(minDateFilter) && isNaN(maxDateFilter)) ||
+          (isNaN(minDateFilter) && date <= maxDateFilter) ||
+          (minDateFilter <= date && isNaN(maxDateFilter)) ||
+          (minDateFilter <= date && date <= maxDateFilter)
+        ) {
+          return true;
+        }
+        return false;
+      });
+      table.draw();
+    });
+
+    $("#filterProvinsi").on("change", function() {
+      table.columns(3).search(this.value).draw();
+    });
+    $("#filterKabupaten").on("change", function() {
+      table.columns(4).search(this.value).draw();
+    });
+    $("#filterKecamatan").on("change", function() {
+      table.columns(5).search(this.value).draw();
+    });
+    $("#filterDesa").on("change", function() {
+      table.columns(6).search(this.value).draw();
+    });
   });
   </script>
   <script>
-  function previewImage() {
-    document.getElementById("image-preview").style.display = "block";
-    var oFReader = new FileReader();
-    oFReader.readAsDataURL(document.getElementById("image-source").files[0]);
-
-    oFReader.onload = function(oFREvent) {
-      document.getElementById("image-preview").src = oFREvent.target.result;
-    };
-
-    var x = document.getElementById("image-source").value;
-    document.getElementById("label-file").innerHTML = x;
-  };
-  </script>
-  <script>
-  var citynames = new Bloodhound({
-    datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
-    queryTokenizer: Bloodhound.tokenizers.whitespace,
-    prefetch: {
-      url: '../js/countries.json',
-      filter: function(list) {
-        return $.map(list, function(cityname) {
-          return { name: cityname };
-        });
+  $(document).on('click', '.btn-hapus', function(e) {
+    Swal.fire({
+      title: 'Apakah anda yakin?',
+      text: "Artikel akan dihapus",
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Yes, Hapus!'
+    }).then((result) => {
+      if (result.value) {
+        Swal.fire(
+          'Deleted!',
+          'Artikel ini telah dihapus',
+          'success'
+        )
       }
-    }
-  });
-  citynames.initialize();
-
-  $('#category').tagsinput({
-    typeaheadjs: {
-      name: 'citynames',
-      displayKey: 'name',
-      valueKey: 'name',
-      source: citynames.ttAdapter()
-    }
+    })
   });
   </script>
   <script>
@@ -324,6 +392,39 @@
       $("footer").toggleClass("footer-toggle");
 
     });
+  });
+  </script>
+  <script>
+  // In your Javascript (external .js resource or <script> tag)
+  $(document).ready(function() {
+    $('.select2').select2();
+  });
+  </script>
+  <script type="text/javascript">
+  $(function() {
+
+    var start = moment().subtract(29, 'days');
+    var end = moment();
+
+    function cb(start, end) {
+      $('#datepicker span').html(start.format('D MMMM, YYYY') + ' - ' + end.format('D MMMM, YYYY'));
+    }
+
+    $('#datepicker').daterangepicker({
+      startDate: start,
+      endDate: end,
+      ranges: {
+        'Hari ini': [moment(), moment()],
+        'Kemarin': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+        '7 hari terakhir': [moment().subtract(6, 'days'), moment()],
+        '30 hari terakhir': [moment().subtract(29, 'days'), moment()],
+        'Bulan ini': [moment().startOf('month'), moment().endOf('month')],
+        'Bulan kemarin': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+      }
+    }, cb);
+
+    cb(start, end);
+
   });
   </script>
 </body>

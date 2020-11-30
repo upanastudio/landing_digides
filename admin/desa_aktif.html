@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>ADMIN - Digides</title>
+  <!-- Custom fonts for this template-->
+  <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
+  <!-- Custom styles for this template-->
+  <link href="../assets/css/sb-admin-2.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../assets/css/dataTables.bootstrap4.css">
+  <link href="../assets/css/my-style-admin.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="../assets/media/misc/android-icon-144x144.png" />
+  <style type="text/css">
+  </style>
+</head>
+
+<body id="page-top">
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+    <!-- Sidebar -->
+    <ul class="navbar-nav sidebar sidebar-dark accordion sidebar-green" id="accordionSidebar">
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <img id="logoDigides" src="../assets/media/misc/Asset5.png">
+      </a>
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-fw fa-home"></i>
+          <span>Dashboard</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+          <i class="fas fa-fw fa-newspaper"></i>
+          <span>Artikel</span>
+        </a>
+        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <a class="collapse-item" href="submit_artikel.html">Submit Artikel</a>
+            <a class="collapse-item" href="daftar_artikel.html">Daftar Artikel</a>
+          </div>
+        </div>
+      </li>
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+    </ul>
+    <!-- End of Sidebar -->
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+      <!-- Main Content -->
+      <div id="content">
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light topbar mb-4 fixed-top shadow bg-green">
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+            <i class="fa fa-bars"></i>
+          </button>
+          <div>
+            <h5 id="userTag" class="user-tag">ADMINISTRATOR</h5>
+          </div>
+          <!-- Topbar Search -->
+          <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+            <div class="input-group d-none">
+              <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+              <div class="input-group-append">
+                <button class="btn btn-primary" type="button">
+                  <i class="fas fa-search fa-sm"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+            <li class="nav-item dropdown no-arrow d-sm-none">
+              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-search fa-fw"></i>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                <form class="form-inline mr-auto w-100 navbar-search">
+                  <div class="input-group">
+                    <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button">
+                        <i class="fas fa-search fa-sm"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+            <!-- Nav Item - User Information -->
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="mr-2 d-none d-lg-inline small">Ahmad Rifaldi</span>
+                <img class="img-profile rounded-circle" src="https://cdn.pixabay.com/photo/2016/04/17/16/10/cat-1334970_1280.jpg">
+              </a>
+              <!-- Dropdown - User Information -->
+              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="#">
+                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Profile
+                </a>
+                <a class="dropdown-item d-none" href="#">
+                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Settings
+                </a>
+                <a class="dropdown-item d-none" href="#">
+                  <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Activity Log
+                </a>
+                <div class="dropdown-divider d-none"></div>
+                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Logout
+                </a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+        <!-- End of Topbar -->
+        <!-- Begin Page Content -->
+        <div id="currentPage" class="container-fluid">
+          <!-- Page Heading -->
+          <div class="card mb-4">
+            <div class="card-header">
+              <div class="row">
+                <div class="col-md-6">
+                  <img class="icon-header-card" width="40px" style="margin-right: 10px;" id="iconCard" name="iconCard" src="../assets/img/iconCard/desa.svg"></i> Desa Aktif
+                </div>
+                <div class="offset-1 col-5">
+                  <div id="datepicker">
+                    <i class="fa fa-calendar"></i>&nbsp;
+                    <span></span> <i class="fa fa-caret-down"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <section id="filterTable" class="mb-3">
+                <div class="row mb-3">
+                  <div class="col-md-3">
+                    <label>Provinsi</label>
+                    <select id="filterProvinsi" class="select2" name="state">
+                      <option value="">Pilih Provinsi</option>
+                      <option value="provinsi A">Provinsi A</option>
+                      <option value="provinsi B">Provinsi B</option>
+                      <option value="provinsi C">Provinsi C</option>
+                      <option value="provinsi D">Provinsi D</option>
+                      <option value="provinsi E">Provinsi E</option>
+                      <option value="provinsi F">Provinsi F</option>
+                    </select>
+                  </div>
+                  <div class="col-md-3">
+                    <label>Kabupaten</label>
+                    <select id="filterKabupaten" class="select2" name="state">
+                      <option value="">Pilih Kabupaten</option>
+                      <option value="Kabupaten A">Kabupaten A</option>
+                      <option value="Kabupaten B">Kabupaten B</option>
+                      <option value="Kabupaten C">Kabupaten C</option>
+                      <option value="Kabupaten D">Kabupaten D</option>
+                      <option value="Kabupaten E">Kabupaten E</option>
+                      <option value="Kabupaten F">Kabupaten F</option>
+                    </select>
+                  </div>
+                  <div class="col-md-3">
+                    <label>Kecamatan</label>
+                    <select id="filterKecamatan" class="select2" name="state">
+                      <option value="">Pilih Kecamatan</option>
+                      <option value="Kecamatan A">Kecamatan A</option>
+                      <option value="Kecamatan B">Kecamatan B</option>
+                      <option value="Kecamatan C">Kecamatan C</option>
+                      <option value="Kecamatan D">Kecamatan D</option>
+                      <option value="Kecamatan E">Kecamatan E</option>
+                      <option value="Kecamatan F">Kecamatan F</option>
+                    </select>
+                  </div>
+                  <div class="col-md-3">
+                    <label>Desa</label>
+                    <select id="filterDesa" class="select2" name="state">
+                      <option value="">Pilih Desa</option>
+                      <option value="Desa A">Desa A</option>
+                      <option value="Desa B">Desa B</option>
+                      <option value="Desa C">Desa C</option>
+                      <option value="Desa D">Desa D</option>
+                      <option value="Desa E">Desa E</option>
+                      <option value="Desa F">Desa F</option>
+                    </select>
+                  </div>
+                </div>
+              </section>
+              <section id="peta">
+                <div id="map_wrapper">
+                  <div id="map"></div>
+                </div>
+              </section>
+              <section id="dataTable">
+                <table id="example" class="table table" style="width:100%" cellspacing="0">
+                  <thead class="thead-dark bg-table">
+                    <tr>
+                      <th class="sorting_disabled" style="border-radius: 5px 0px 0px 0px">No</th>
+                      <th>Tanggal</th>
+                      <th>Kode Desa</th>
+                      <th>Provinsi</th>
+                      <th>Kabupaten/Kota</th>
+                      <th>Kecamatan</th>
+                      <th style="border-radius: 0px 5px 0px 0px">Desa/Kelurahan</th>
+                    </tr>
+                  </thead>
+                </table>
+              </section>
+            </div>
+          </div>
+        </div>
+        <!-- /.container-fluid -->
+      </div>
+      <!-- End of Main Content -->
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright &copy; Digital Desa 2020</span>
+          </div>
+        </div>
+      </footer>
+      <!-- End of Footer -->
+    </div>
+    <!-- End of Content Wrapper -->
+  </div>
+  <!-- End of Page Wrapper -->
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap core JavaScript-->
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- Core plugin JavaScript-->
+  <!-- Custom scripts for all pages-->
+  <script src="../assets/js/sb-admin-2.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.17.2/dist/sweetalert2.all.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+  <!-- <script src="https://cdn.datatables.net/plug-ins/1.10.21/sorting/date-de.js"></script> -->
+  <script>
+  $(document).ready(function() {
+    var table = $('#example').DataTable({
+      "pageLength" : 10,
+
+      "ajax": "../assets/js/source/dataDesaAktif.json",
+      "columns": [{
+          "data": "no",
+
+        },
+        {
+          "data": "tanggal",
+          "type": "date"
+        },
+        {
+          "data": "kodeDesa"
+        },
+        {
+          "data": "provinsi",
+        },
+        {
+          "data": "kabkot",
+        },
+        {
+          "data": "kecamatan",
+        },
+        {
+          "data": "desa",
+        }
+      ],
+      "columnDefs": [
+        { "sortable": false, "targets": [0, 1, 2, 3, 4, 5, 6] },
+        {
+          "targets": 0,
+          "width": "5%",
+          "className": "text-center",
+        },
+        {
+          "targets": 2,
+          "width": "15%",
+          "className": "text-center"
+        }
+      ]
+    });
+
+    $("#datepicker").on("apply.daterangepicker", function(ev, picker) {
+      minDateFilter = Date.parse(picker.startDate);
+      maxDateFilter = Date.parse(picker.endDate);
+
+      $.fn.dataTable.ext.search.push(function(settings, data, dataIndex) {
+        var date = Date.parse(data[1]);
+
+        if (
+          (isNaN(minDateFilter) && isNaN(maxDateFilter)) ||
+          (isNaN(minDateFilter) && date <= maxDateFilter) ||
+          (minDateFilter <= date && isNaN(maxDateFilter)) ||
+          (minDateFilter <= date && date <= maxDateFilter)
+        ) {
+          return true;
+        }
+        return false;
+      });
+      table.draw();
+    });
+
+    $("#filterProvinsi").on("change", function() {
+      table.columns(3).search(this.value).draw();
+    });
+    $("#filterKabupaten").on("change", function() {
+      table.columns(4).search(this.value).draw();
+    });
+    $("#filterKecamatan").on("change", function() {
+      table.columns(5).search(this.value).draw();
+    });
+    $("#filterDesa").on("change", function() {
+      table.columns(6).search(this.value).draw();
+    });
+  });
+  </script>
+  <script>
+  $(document).on('click', '.btn-hapus', function(e) {
+    Swal.fire({
+      title: 'Apakah anda yakin?',
+      text: "Artikel akan dihapus",
+      icon: 'warning',
+      showCancelButton: true,
+      confirmButtonColor: '#3085d6',
+      cancelButtonColor: '#d33',
+      confirmButtonText: 'Yes, Hapus!'
+    }).then((result) => {
+      if (result.value) {
+        Swal.fire(
+          'Deleted!',
+          'Artikel ini telah dihapus',
+          'success'
+        )
+      }
+    })
+  });
+  </script>
+  <script>
+  $(document).ready(function() {
+    $("#sidebarToggle").click(function() {
+
+      $("#userTag").toggleClass("user-tag-toggle");
+      $("#currentPage").toggleClass("page-toggle");
+      $("footer").toggleClass("footer-toggle");
+
+    });
+  });
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDH9juhlGHJLtBCZMmO0Q54DwryFcWNs40&callback=initMap"></script>
+  <script>
+  var map;
+
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 16,
+      center: new google.maps.LatLng(-33.91722, 151.23064),
+      mapTypeId: 'roadmap'
+    });
+
+    // defines custom icons
+    var icons = {
+      digides: {
+        icon: 'assets/img/digitaldesa.png'
+      }
+    };
+
+    function addMarker(feature) {
+      var marker = new google.maps.Marker({
+        position: feature.position,
+        icon: icons[feature.type].icon,
+        map: map
+      });
+    }
+
+    // I wrote this - don't know if it works...
+    function addInfoWindow(feature) {
+      // this part is from https://developers.google.com/maps/documentation/javascript/infowindows
+      var infowindow = new google.maps.InfoWindow({
+        content: features.content
+      });
+    }
+
+    // defines locations
+    var features = [{
+      position: new google.maps.LatLng(-33.91721, 151.22630),
+      type: 'digides',
+      content: 'Info 1'
+    }, {
+      position: new google.maps.LatLng(-33.91539, 151.22820),
+      type: 'digides',
+      content: 'Info 2'
+    }, {
+      position: new google.maps.LatLng(-33.91747, 151.22912),
+      type: 'digides',
+      content: 'Info 3'
+    }, {
+      position: new google.maps.LatLng(-33.91910, 151.22907),
+      type: 'digides',
+      content: 'Info 3'
+    }, {
+      position: new google.maps.LatLng(-33.91725, 151.23011),
+      type: 'digides',
+      content: 'Info 4'
+    }, {
+      position: new google.maps.LatLng(-33.91872, 151.23089),
+      type: 'digides',
+      content: 'Info 5'
+    }, {
+      position: new google.maps.LatLng(-33.91784, 151.23094),
+      type: 'digides',
+      content: 'Info 6'
+    }, {
+      position: new google.maps.LatLng(-33.91682, 151.23149),
+      type: 'digides',
+      content: 'Info 7'
+    }, {
+      position: new google.maps.LatLng(-33.91790, 151.23463),
+      type: 'digides'
+    }, {
+      position: new google.maps.LatLng(-33.91666, 151.23468),
+      type: 'digides',
+      content: 'Info 8'
+    }, {
+      position: new google.maps.LatLng(-33.916988, 151.233640),
+      type: 'digides',
+      content: 'Info 9'
+    }, {
+      position: new google.maps.LatLng(-33.91662347903106, 151.22879464019775),
+      type: 'digides',
+      content: 'Pkng 1'
+    }, {
+      position: new google.maps.LatLng(-33.916365282092855, 151.22937399734496),
+      type: 'digides',
+      content: 'Pkng 2'
+    }, {
+      position: new google.maps.LatLng(-33.91665018901448, 151.2282474695587),
+      type: 'digides',
+      content: 'Pkng 3'
+    }, {
+      position: new google.maps.LatLng(-33.919543720969806, 151.23112279762267),
+      type: 'digides',
+      content: 'Pkng 4'
+    }, {
+      position: new google.maps.LatLng(-33.91608037421864, 151.23288232673644),
+      type: 'digides',
+      content: 'Pkng 5'
+    }, {
+      position: new google.maps.LatLng(-33.91851096391805, 151.2344058214569),
+      type: 'digides',
+      content: 'Pkng 6'
+    }, {
+      position: new google.maps.LatLng(-33.91818154739766, 151.2346203981781),
+      type: 'digides',
+      content: 'Pkng 7'
+    }, {
+      position: new google.maps.LatLng(-33.91727341958453, 151.23348314155578),
+      type: 'digides',
+      content: 'La Biblioteca'
+    }];
+
+    // adds markers via the features table
+    for (var i = 0, feature; feature = features[i]; i++) {
+      addMarker(feature);
+      addInfoWindow(feature);
+    }
+
+    // marker variable is only defined within the addMarker function
+    /* marker.addListener('click', function() {
+       infowindow.open(map, marker);
+    });*/
+  }
+  </script>
+  <script>
+  // In your Javascript (external .js resource or <script> tag)
+  $(document).ready(function() {
+    $('.select2').select2();
+  });
+  </script>
+  <script type="text/javascript">
+  $(function() {
+
+    var start = moment().subtract(29, 'days');
+    var end = moment();
+
+    function cb(start, end) {
+      $('#datepicker span').html(start.format('DD MMMM, YYYY') + ' - ' + end.format('D MMMM, YYYY'));
+    }
+
+    $('#datepicker').daterangepicker({
+      startDate: start,
+      endDate: end,
+      ranges: {
+        'Hari ini': [moment(), moment()],
+        'Kemarin': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+        '7 hari terakhir': [moment().subtract(6, 'days'), moment()],
+        '30 hari terakhir': [moment().subtract(29, 'days'), moment()],
+        'Bulan ini': [moment().startOf('month'), moment().endOf('month')],
+        'Bulan kemarin': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+      }
+    }, cb);
+
+    cb(start, end);
+
+  });
+  </script>
+</body>
+
+</html>

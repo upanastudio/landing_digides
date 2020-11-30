@@ -8,20 +8,19 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <title>ADMIN - Digides</title>
-  <base href="../">
   <!-- Custom fonts for this template-->
-  <link href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" rel="stylesheet">
+  <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
   <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
   <!-- Custom styles for this template-->
-  <link href="assets/css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="../assets/css/sb-admin-2.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="https://bootstrap-tagsinput.github.io/bootstrap-tagsinput/dist/bootstrap-tagsinput.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/typeheadjs.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/typeheadjs.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css">
-  <link href="assets/css/my-style-admin.css" rel="stylesheet">
+  <link href="../assets/css/my-style-admin.css" rel="stylesheet">
   <!-- favicon -->
-  <link rel="icon" type="image/png" href="assets/media/misc/android-icon-144x144.png" />
+  <link rel="icon" type="image/png" href="../assets/media/misc/android-icon-144x144.png" />
 </head>
 
 <body id="page-top">
@@ -30,14 +29,14 @@
     <!-- Sidebar -->
     <ul class="navbar-nav sidebar sidebar-dark accordion sidebar-green" id="accordionSidebar">
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="admin/index.html">
-        <img id="logoDigides" src="assets/media/misc/Asset5.png">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <img id="logoDigides" src="../assets/media/misc/Asset5.png">
       </a>
       <!-- Divider -->
       <hr class="sidebar-divider my-0">
       <!-- Nav Item - Dashboard -->
       <li class="nav-item">
-        <a class="nav-link" href="admin/index.html">
+        <a class="nav-link" href="index.html">
           <i class="fas fa-fw fa-home"></i>
           <span>Dashboard</span></a>
       </li>
@@ -48,8 +47,8 @@
         </a>
         <div id="collapsePages" class="collapse show" aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item active" href="admin/submit_artikel.html">Submit Artikel</a>
-            <a class="collapse-item" href="admin/daftar_artikel.html">Daftar Artikel</a>
+            <a class="collapse-item active" href="submit_artikel.html">Submit Artikel</a>
+            <a class="collapse-item" href="daftar_artikel.html">Daftar Artikel</a>
           </div>
         </div>
       </li>
@@ -66,13 +65,13 @@
       <!-- Main Content -->
       <div id="content">
         <!-- Topbar -->
-        <nav class="navbar navbar-expand navbar-light topbar mb-4 static-top shadow bg-green">
+        <nav class="navbar navbar-expand navbar-light topbar mb-4 fixed-top shadow bg-green">
           <!-- Sidebar Toggle (Topbar) -->
           <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
             <i class="fa fa-bars"></i>
           </button>
           <div>
-            <h5 class="user-tag">ADMINISTRATOR</h5>
+            <h5 id="userTag" class="user-tag">ADMINISTRATOR</h5>
           </div>
           <!-- Topbar Search -->
           <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
@@ -137,7 +136,7 @@
         </nav>
         <!-- End of Topbar -->
         <!-- Begin Page Content -->
-        <div class="container-fluid">
+        <div id="currentPage" class="container-fluid">
           <!-- Page Heading -->
           <h1 class="h3 mb-4 text-gray-800 d-none">Blank Page</h1>
           <div class="card mb-4">
@@ -231,16 +230,16 @@ Nulla quis lorem ut libero malesuada feugiat. Donec sollicitudin molestie malesu
     </div>
   </div>
   <!-- Bootstrap core JavaScript-->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- Core plugin JavaScript-->
-  <!-- <script src="vendor/jquery-easing/jquery.easing.min.js"></script> -->
+  <!-- <script src="../vendor/jquery-easing/jquery.easing.min.js"></script> -->
   <!-- Custom scripts for all pages-->
-  <script src="assets/js/sb-admin-2.min.js"></script>
+  <script src="../assets/js/sb-admin-2.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.js"></script>
   <script src="https://bootstrap-tagsinput.github.io/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js"></script>
   <script src="https://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.17.2/dist/sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9.17.2/dist/sweetalert2.all.min.js"></script>
   <script>
   $(document).ready(function() {
     $('#isiArtikel').summernote({
@@ -296,6 +295,16 @@ Nulla quis lorem ut libero malesuada feugiat. Donec sollicitudin molestie malesu
       'success'
     )
   });
+  </script>
+  <script>
+    $(document).ready(function(){
+      $("#sidebarToggle").click(function(){
+        $("#userTag").toggleClass("user-tag-toggle");
+        $("#currentPage").toggleClass("page-toggle");
+        $("footer").toggleClass("footer-toggle");
+        // alert("yihaaaa");
+      });
+    });
   </script>
 </body>
 
