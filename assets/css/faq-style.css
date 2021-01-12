@@ -1,0 +1,117 @@
+h3{
+    color:  #327A6D;
+}
+
+.pertanyaan{
+    text-align: center;
+    position: relative;
+    background: #CBE3D9;
+}
+
+.logonya{
+    width: 70%;
+    height: 70%;
+    padding: 2rem;
+}
+.badan{
+    justify-content: center;
+    max-width: 80%;
+}
+.baris{
+    display: flex;
+    justify-content: space-between;
+}
+.isi a{
+  font-size:smaller;
+    text-decoration: none;
+    color:white;
+    border-radius: 2rem;
+}
+
+.panel-default>.panel-heading {
+    color: #CBE3D9;
+    background-color:#327A6D;
+    border-color: #e4e5e7;
+    padding: 0;
+    border-radius: .2rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .panel-default>.panel-heading a {
+    display: block;
+    padding: 10px 30px;
+  }
+  
+  .panel-default>.panel-heading a:after {
+    content: "";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    transition: transform .25s linear;
+    -webkit-transition: -webkit-transform .25s linear;
+  } 
+  /* .panel-default>.panel-heading a[aria-expanded="true"]:after {
+    content: "\2212";
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  
+  .panel-default>.panel-heading a[aria-expanded="false"]:after {
+    content: "\002b";
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  } */
+  .panel-default{
+      background:  white;
+  }
+  .panel-default .panel-body{
+    background: white;
+    padding: 0rem 2rem 2rem 2rem;
+  }
+  .section-one{
+    margin-top: 6rem;
+  }
+  .section-two{
+    margin-top:6rem;
+  }
+  .section-two .lebih a{
+    color: #f8a23d !important;
+    text-decoration: none;
+  }
+  .jumbotron .search{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem;
+    height: 2rem;
+    padding-left: .5rem;
+    align-items: center;
+    background: white;
+    border-radius:.2rem;
+  }
+  .jumbotron .search input{
+    width: 100%;
+    margin: .1rem 0rem .1rem .3rem;
+    border: none;
+  }
+  .jumbotron .search #form:focus{
+    border-style: none;
+    outline-width: 0;
+  }
+  .jumbotron .search i{
+    color: #bababa;
+  }
+  .rotate{
+    transform: rotate(45deg);
+  }
+  .panel-default>.panel-heading a[aria-expanded="true"]{
+    color: #f8a23d;
+  }
+  
