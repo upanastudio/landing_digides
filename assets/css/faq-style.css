@@ -6,12 +6,13 @@ h3{
     text-align: center;
     position: relative;
     background: #CBE3D9;
+    border-radius: .5rem;
 }
 
 .logonya{
-    width: 70%;
-    height: 70%;
-    padding: 2rem;
+    width: 80%;
+    height: 90%;
+    padding:1rem .2rem;
 }
 .badan{
     justify-content: center;
@@ -98,7 +99,6 @@ h3{
   }
   .jumbotron .search input{
     width: 100%;
-    margin: .1rem 0rem .1rem .3rem;
     border: none;
   }
   .jumbotron .search #form:focus{
@@ -114,4 +114,10 @@ h3{
   .panel-default>.panel-heading a[aria-expanded="true"]{
     color: #f8a23d;
   }
-  
+  .jumbotron .tombol{
+    margin-left: -2rem;
+    padding: .2rem 1rem;
+    background: #bababa;
+    border-color: #bababa;
+    border-radius: none !important;
+  }
