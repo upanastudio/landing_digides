@@ -6,14 +6,44 @@ h3{
     text-align: center;
     position: relative;
     background: #CBE3D9;
+    transition: transform .2s;
     border-radius: .5rem;
 }
-
-.logonya{
-    width: 80%;
-    height: 90%;
-    padding:1rem .2rem;
+.pertanyaan1.card-hover{ 
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
 }
+.pertanyaan2.card-hover{ 
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.pertanyaan3.card-hover{ 
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.pertanyaan4.card-hover{ 
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.pertanyaan5.card-hover{ 
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+.pertanyaan6.card-hover{ 
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.div-card{
+  padding:2%;
+}
+
 .badan{
     justify-content: center;
     max-width: 80%;
@@ -88,11 +118,14 @@ h3{
   }
   .jumbotron .search{
     display: flex;
+    position: relative;
     justify-content: center;
     margin: 0;
     padding: 1rem;
     height: 2rem;
-    padding-left: .5rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    padding-left: 1rem;
     align-items: center;
     background: white;
     border-radius:.2rem;
@@ -100,6 +133,8 @@ h3{
   .jumbotron .search input{
     width: 100%;
     border: none;
+    color:#383838;
+    margin-left: .5rem;
   }
   .jumbotron .search #form:focus{
     border-style: none;
@@ -115,9 +150,35 @@ h3{
     color: #f8a23d;
   }
   .jumbotron .tombol{
-    margin-left: -2rem;
-    padding: .2rem 1rem;
+    position: absolute;
+    right: 0;
+    padding: .6rem 1rem;
     background: #bababa;
-    border-color: #bababa;
+    border: .1rem solid #bababa;
     border-radius: none !important;
   }
+  .card-row{
+    display: flex;
+    justify-content: center;
+  }
+  .section-one h5{
+    font-size: 1rem !important;
+  }
+  .section-one p{
+    font-size: .8rem !important;
+  }
+  .lainnya{
+    display: none;
+  }
+  .lainnya .datang{
+    display: block;
+  }
+  #div1{
+    display: block;
+  }
+  .aktif{
+    border: 3px 3px 2px 2px solid #bababa;
+    background: white !important;
+    box-shadow: 5px 20px #888888;
+  }
+  /* #91df78 */
