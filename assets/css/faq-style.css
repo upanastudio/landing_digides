@@ -7,6 +7,7 @@ h3{
     position: relative;
     background: #CBE3D9;
     transition: transform .2s;
+
     border-radius: .5rem;
 }
 .pertanyaan1.card-hover{ 
@@ -136,7 +137,7 @@ h3{
     color:#383838;
     margin-left: .5rem;
   }
-  .jumbotron .search #form:focus{
+  .jumbotron .search .input-search:focus{
     border-style: none;
     outline-width: 0;
   }
@@ -175,10 +176,27 @@ h3{
   }
   #div1{
     display: block;
+    position: relative;
+  }
+  #div2{
+    display: none;
+    position: relative;
+  }
+  #div3{
+    display: none;
+  }
+  #div4{
+    display: none;
+  }
+  #div5{
+    display: none;
+  }
+  #div6{
+    display: none;
   }
   .aktif{
     border: 3px 3px 2px 2px solid #bababa;
     background: white !important;
-    box-shadow: 5px 20px #888888;
+    box-shadow: inset 0 0 10px #000000;
   }
   /* #91df78 */
