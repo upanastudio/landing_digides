@@ -9,33 +9,33 @@ h3{
     border-radius: .5rem;
 }
 .pertanyaan1.card-hover{ 
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 .pertanyaan2.card-hover{ 
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
   transform: scale(1.1);
 }
 .pertanyaan3.card-hover{ 
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
   transform: scale(1.1);
 }
 .pertanyaan4.card-hover{ 
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
   transform: scale(1.1);
 }
 .pertanyaan5.card-hover{ 
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
   transform: scale(1.1);
 }
 .pertanyaan6.card-hover{ 
-  -ms-transform: scale(1.1); /* IE 9 */
-  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1); 
   transform: scale(1.1);
 }
 
@@ -87,17 +87,6 @@ h3{
     transition: transform .25s linear;
     -webkit-transition: -webkit-transform .25s linear;
   } 
-  /* .panel-default>.panel-heading a[aria-expanded="true"]:after {
-    content: "\2212";
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
-  }
-  
-  .panel-default>.panel-heading a[aria-expanded="false"]:after {
-    content: "\002b";
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-  } */
   .panel-default{
       background:  white;
   }
@@ -200,11 +189,10 @@ h3{
     background: white !important;
  
   }
-  /* #91df78 */
   .kategori i{
     transform: rotate(-90deg);
     transition: transform .2s;
   }
-  /* .kategori:hover > i{
-    transform: rotate(1deg);
-  } */
+  .pointer {
+    cursor: pointer;
+  }

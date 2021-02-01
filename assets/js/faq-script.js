@@ -1,3 +1,4 @@
+// function menampilkan kategori
 function muncul1() {
     aktif1 = document.querySelector('.pertanyaan1');
     aktif2 = document.querySelector('.pertanyaan2');
@@ -154,6 +155,8 @@ function muncul6() {
     document.querySelector('.logo5').src = "assets/img/iconCard/city-hall.svg";
     document.querySelector('.logo6').src = "assets/img/iconCard/city-hall-hover.svg";
 }
+// merubaha warna pertanyaan umum
+
 $('.aktif1').on('mouseenter', function () {
     $('.pertanyaan1').addClass('card-hover');
 });
