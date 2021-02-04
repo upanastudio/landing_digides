@@ -1,4 +1,4 @@
-h3{
+h4{
     color:  #327A6D;
 }
 
@@ -131,7 +131,7 @@ h3{
   .jumbotron .search i{
     color: #bababa;
   }
-  .rotate{
+  /* .rotate{
     transform: rotate(45deg);
   }
   .panel-default>.panel-heading a[aria-expanded="true"]{
@@ -139,7 +139,7 @@ h3{
   }
   .panel-default>.panel-heading a[aria-expanded="true"] i{
     transform: rotate(1deg);
-  }
+  } */
   
   .jumbotron .tombol{
     position: absolute;
@@ -196,3 +196,40 @@ h3{
   .pointer {
     cursor: pointer;
   }
+  .muncul{
+    display: block;
+  }
+  /* acordion */
+  .cards-cover{
+    padding: 0;
+  }
+  .cards-header{
+    display: flex;
+    margin:0rem 1rem;
+    border-radius: 5px;
+    align-items: center;
+    background:#327A6D;
+    color: white;
+    padding: .2rem;
+  }
+  .cards-header h5{
+    margin:.5rem;
+    display: flex !important;
+    align-items: center !important;
+  }
+  .cards-header span{
+    margin-left: 2rem;
+    transition:transform .3s;
+  }
+  .cards-body{
+    padding-top: .5rem;
+    padding-left: 2rem;
+    display: none;
+  }
+  .accordian .cards{
+    margin-bottom:1rem;
+  }
+  .rotate{
+    transform:rotate(90deg);
+  }
+  

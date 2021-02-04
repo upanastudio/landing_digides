@@ -217,3 +217,5 @@ $('.aktif6').on('click', function () {
     $('.pertanyaan6').removeClass('card-hover');
     $('.pertanyaan6').off('mouseenter mouseleave');
 });
+
+// acordion
