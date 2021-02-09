@@ -1,159 +1,173 @@
 // function menampilkan kategori
+for (var i; i < 7; i++) {
+    function muncul1() {
+        for (var i = 1; i < 7; i++) {
+            aktif = document.querySelector('.pertanyaan' + i);
+            if (i !== 1) {
+                aktif.classList.remove('aktif');
+            } else {
+                aktif.classList.add('aktif');
+            }
+        }
+        for (var i = 1; i < 7; i++) {
+            if (i !== 1) {
+                document.getElementById('div' + i).style.display = "none";
+            } else {
+                document.getElementById('div' + i).style.display = "block";
+            }
+        }
+        for (var i = 1; i < 7; i++) {
+            if (i !== 1) {
+                document.querySelector('.logo' + i).src = "assets/img/iconCard/city-hall.svg";
+            } else {
+                document.querySelector('.logo' + i).src = "assets/img/iconCard/city-hall-hover.svg";
+            }
+        }
+    }
+}
 function muncul1() {
-    aktif1 = document.querySelector('.pertanyaan1');
-    aktif2 = document.querySelector('.pertanyaan2');
-    aktif3 = document.querySelector('.pertanyaan3');
-    aktif4 = document.querySelector('.pertanyaan4');
-    aktif5 = document.querySelector('.pertanyaan5');
-    aktif6 = document.querySelector('.pertanyaan6');
-    aktif1.classList.add('aktif');
-    aktif2.classList.remove('aktif');
-    aktif3.classList.remove('aktif');
-    aktif4.classList.remove('aktif');
-    aktif5.classList.remove('aktif');
-    aktif6.classList.remove('aktif');
-    document.getElementById("div1").style.display = "block";
-    document.getElementById("div2").style.display = "none";
-    document.getElementById("div3").style.display = "none";
-    document.getElementById("div4").style.display = "none";
-    document.getElementById("div5").style.display = "none";
-    document.getElementById("div6").style.display = "none";
-    document.querySelector('.logo1').src = "assets/img/iconCard/city-hall-hover.svg";
-    document.querySelector('.logo2').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo3').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo4').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo5').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo6').src = "assets/img/iconCard/city-hall.svg";
+    for (var i = 1; i < 7; i++) {
+        aktif = document.querySelector('.pertanyaan' + i);
+        if (i !== 1) {
+            aktif.classList.remove('aktif');
+        } else {
+            aktif.classList.add('aktif');
+        }
+    }
+    for (var i = 1; i < 7; i++) {
+        if (i !== 1) {
+            document.getElementById('div' + i).style.display = "none";
+        } else {
+            document.getElementById('div' + i).style.display = "block";
+        }
+    }
+    for (var i = 1; i < 7; i++) {
+        if (i !== 1) {
+            document.querySelector('.logo' + i).src = "assets/img/iconCard/city-hall.svg";
+        } else {
+            document.querySelector('.logo' + i).src = "assets/img/iconCard/city-hall-hover.svg";
+        }
+    }
 }
 function muncul2() {
-    aktif1 = document.querySelector('.pertanyaan1');
-    aktif2 = document.querySelector('.pertanyaan2');
-    aktif3 = document.querySelector('.pertanyaan3');
-    aktif4 = document.querySelector('.pertanyaan4');
-    aktif5 = document.querySelector('.pertanyaan5');
-    aktif6 = document.querySelector('.pertanyaan6');
-    aktif1.classList.remove('aktif');
-    aktif2.classList.add('aktif');
-    aktif3.classList.remove('aktif');
-    aktif4.classList.remove('aktif');
-    aktif5.classList.remove('aktif');
-    aktif6.classList.remove('aktif');
-    document.getElementById("div1").style.display = "none";
-    document.getElementById("div2").style.display = "block";
-    document.getElementById("div3").style.display = "none";
-    document.getElementById("div4").style.display = "none";
-    document.getElementById("div5").style.display = "none";
-    document.getElementById("div6").style.display = "none";
-    document.querySelector('.logo1').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo2').src = "assets/img/iconCard/city-hall-hover.svg";
-    document.querySelector('.logo3').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo4').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo5').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo6').src = "assets/img/iconCard/city-hall.svg";
+    for (var i = 1; i < 7; i++) {
+        aktif = document.querySelector('.pertanyaan' + i);
+        if (i !== 2) {
+            aktif.classList.remove('aktif');
+        } else {
+            aktif.classList.add('aktif');
+        }
+    }
+    for (var i = 1; i < 7; i++) {
+        if (i !== 2) {
+            document.getElementById('div' + i).style.display = "none";
+        } else {
+            document.getElementById('div' + i).style.display = "block";
+        }
+    }
+    for (var i = 1; i < 7; i++) {
+        if (i !== 2) {
+            document.querySelector('.logo' + i).src = "assets/img/iconCard/city-hall.svg";
+        } else {
+            document.querySelector('.logo' + i).src = "assets/img/iconCard/city-hall-hover.svg";
+        }
+    }
 }
 function muncul3() {
-    aktif1 = document.querySelector('.pertanyaan1');
-    aktif2 = document.querySelector('.pertanyaan2');
-    aktif3 = document.querySelector('.pertanyaan3');
-    aktif4 = document.querySelector('.pertanyaan4');
-    aktif5 = document.querySelector('.pertanyaan5');
-    aktif6 = document.querySelector('.pertanyaan6');
-    aktif1.classList.remove('aktif');
-    aktif2.classList.remove('aktif');
-    aktif3.classList.add('aktif');
-    aktif4.classList.remove('aktif');
-    aktif5.classList.remove('aktif');
-    aktif6.classList.remove('aktif');
-    document.getElementById("div1").style.display = "none";
-    document.getElementById("div2").style.display = "none";
-    document.getElementById("div3").style.display = "block";
-    document.getElementById("div4").style.display = "none";
-    document.getElementById("div5").style.display = "none";
-    document.getElementById("div6").style.display = "none";
-    document.querySelector('.logo1').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo2').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo3').src = "assets/img/iconCard/city-hall-hover.svg";
-    document.querySelector('.logo4').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo5').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo6').src = "assets/img/iconCard/city-hall.svg";
+    for (var i = 1; i < 7; i++) {
+        aktif = document.querySelector('.pertanyaan' + i);
+        if (i !== 3) {
+            aktif.classList.remove('aktif');
+        } else {
+            aktif.classList.add('aktif');
+        }
+    }
+    for (var i = 1; i < 7; i++) {
+        if (i !== 3) {
+            document.getElementById('div' + i).style.display = "none";
+        } else {
+            document.getElementById('div' + i).style.display = "block";
+        }
+    }
+    for (var i = 1; i < 7; i++) {
+        if (i !== 3) {
+            document.querySelector('.logo' + i).src = "assets/img/iconCard/city-hall.svg";
+        } else {
+            document.querySelector('.logo' + i).src = "assets/img/iconCard/city-hall-hover.svg";
+        }
+    }
 }
 function muncul4() {
-    aktif1 = document.querySelector('.pertanyaan1');
-    aktif2 = document.querySelector('.pertanyaan2');
-    aktif3 = document.querySelector('.pertanyaan3');
-    aktif4 = document.querySelector('.pertanyaan4');
-    aktif5 = document.querySelector('.pertanyaan5');
-    aktif6 = document.querySelector('.pertanyaan6');
-    aktif1.classList.remove('aktif');
-    aktif2.classList.remove('aktif');
-    aktif3.classList.remove('aktif');
-    aktif4.classList.add('aktif');
-    aktif5.classList.remove('aktif');
-    aktif6.classList.remove('aktif');
-    document.getElementById("div1").style.display = "none";
-    document.getElementById("div2").style.display = "none";
-    document.getElementById("div3").style.display = "none";
-    document.getElementById("div4").style.display = "block";
-    document.getElementById("div5").style.display = "none";
-    document.getElementById("div6").style.display = "none";
-    document.querySelector('.logo1').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo2').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo3').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo4').src = "assets/img/iconCard/city-hall-hover.svg";
-    document.querySelector('.logo5').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo6').src = "assets/img/iconCard/city-hall.svg";
+    for (var i = 1; i < 7; i++) {
+        aktif = document.querySelector('.pertanyaan' + i);
+        if (i !== 4) {
+            aktif.classList.remove('aktif');
+        } else {
+            aktif.classList.add('aktif');
+        }
+    }
+    for (var i = 1; i < 7; i++) {
+        if (i !== 4) {
+            document.getElementById('div' + i).style.display = "none";
+        } else {
+            document.getElementById('div' + i).style.display = "block";
+        }
+    }
+    for (var i = 1; i < 7; i++) {
+        if (i !== 4) {
+            document.querySelector('.logo' + i).src = "assets/img/iconCard/city-hall.svg";
+        } else {
+            document.querySelector('.logo' + i).src = "assets/img/iconCard/city-hall-hover.svg";
+        }
+    }
 }
 function muncul5() {
-    aktif1 = document.querySelector('.pertanyaan1');
-    aktif2 = document.querySelector('.pertanyaan2');
-    aktif3 = document.querySelector('.pertanyaan3');
-    aktif4 = document.querySelector('.pertanyaan4');
-    aktif5 = document.querySelector('.pertanyaan5');
-    aktif6 = document.querySelector('.pertanyaan6');
-    aktif1.classList.remove('aktif');
-    aktif2.classList.remove('aktif');
-    aktif3.classList.remove('aktif');
-    aktif4.classList.remove('aktif');
-    aktif5.classList.add('aktif');
-    aktif6.classList.remove('aktif');
-    document.getElementById("div1").style.display = "none";
-    document.getElementById("div2").style.display = "none";
-    document.getElementById("div3").style.display = "none";
-    document.getElementById("div4").style.display = "none";
-    document.getElementById("div5").style.display = "block";
-    document.getElementById("div6").style.display = "none";
-    document.querySelector('.logo1').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo2').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo3').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo4').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo5').src = "assets/img/iconCard/city-hall-hover.svg";
-    document.querySelector('.logo6').src = "assets/img/iconCard/city-hall.svg";
+    for (var i = 1; i < 7; i++) {
+        aktif = document.querySelector('.pertanyaan' + i);
+        if (i !== 5) {
+            aktif.classList.remove('aktif');
+        } else {
+            aktif.classList.add('aktif');
+        }
+    }
+    for (var i = 1; i < 7; i++) {
+        if (i !== 5) {
+            document.getElementById('div' + i).style.display = "none";
+        } else {
+            document.getElementById('div' + i).style.display = "block";
+        }
+    }
+    for (var i = 1; i < 7; i++) {
+        if (i !== 5) {
+            document.querySelector('.logo' + i).src = "assets/img/iconCard/city-hall.svg";
+        } else {
+            document.querySelector('.logo' + i).src = "assets/img/iconCard/city-hall-hover.svg";
+        }
+    }
 }
 function muncul6() {
-    aktif1 = document.querySelector('.pertanyaan1');
-    aktif2 = document.querySelector('.pertanyaan2');
-    aktif3 = document.querySelector('.pertanyaan3');
-    aktif4 = document.querySelector('.pertanyaan4');
-    aktif5 = document.querySelector('.pertanyaan5');
-    aktif6 = document.querySelector('.pertanyaan6');
-    aktif1.classList.remove('aktif');
-    aktif2.classList.remove('aktif');
-    aktif3.classList.remove('aktif');
-    aktif4.classList.remove('aktif');
-    aktif5.classList.remove('aktif');
-    aktif6.classList.add('aktif');
-    document.getElementById("div1").style.display = "none";
-    document.getElementById("div2").style.display = "none";
-    document.getElementById("div3").style.display = "none";
-    document.getElementById("div4").style.display = "none";
-    document.getElementById("div5").style.display = "none";
-    document.getElementById("div6").style.display = "block";
-    document.querySelector('.logo1').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo2').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo3').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo4').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo5').src = "assets/img/iconCard/city-hall.svg";
-    document.querySelector('.logo6').src = "assets/img/iconCard/city-hall-hover.svg";
+    for (var i = 1; i < 7; i++) {
+        aktif = document.querySelector('.pertanyaan' + i);
+        if (i !== 6) {
+            aktif.classList.remove('aktif');
+        } else {
+            aktif.classList.add('aktif');
+        }
+    }
+    for (var i = 1; i < 7; i++) {
+        if (i !== 6) {
+            document.getElementById('div' + i).style.display = "none";
+        } else {
+            document.getElementById('div' + i).style.display = "block";
+        }
+    }
+    for (var i = 1; i < 7; i++) {
+        if (i !== 6) {
+            document.querySelector('.logo' + i).src = "assets/img/iconCard/city-hall.svg";
+        } else {
+            document.querySelector('.logo' + i).src = "assets/img/iconCard/city-hall-hover.svg";
+        }
+    }
 }
 // merubaha warna pertanyaan umum
 
@@ -217,5 +231,4 @@ $('.aktif6').on('click', function () {
     $('.pertanyaan6').removeClass('card-hover');
     $('.pertanyaan6').off('mouseenter mouseleave');
 });
-
 // acordion
