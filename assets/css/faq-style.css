@@ -1,69 +1,79 @@
-h4{
-    color:  #327A6D;
+h4 {
+    color: #327A6D;
     cursor: context-menu;
 }
-.info-jumbotron{
-  cursor:context-menu;
+
+.info-jumbotron {
+    cursor: context-menu;
 }
-.pertanyaan{
+
+.pertanyaan {
     position: relative;
     background: #CBE3D9;
     transition: transform .2s;
     border-radius: .5rem;
 }
-.pertanyaan1.card-hover{ 
-  -ms-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-.pertanyaan2.card-hover{ 
-  -ms-transform: scale(1.1); 
-  -webkit-transform: scale(1.1); 
-  transform: scale(1.1);
-}
-.pertanyaan3.card-hover{ 
-  -ms-transform: scale(1.1); 
-  -webkit-transform: scale(1.1); 
-  transform: scale(1.1);
-}
-.pertanyaan4.card-hover{ 
-  -ms-transform: scale(1.1); 
-  -webkit-transform: scale(1.1); 
-  transform: scale(1.1);
-}
-.pertanyaan5.card-hover{ 
-  -ms-transform: scale(1.1); 
-  -webkit-transform: scale(1.1); 
-  transform: scale(1.1);
-}
-.pertanyaan6.card-hover{ 
-  -ms-transform: scale(1.1); 
-  -webkit-transform: scale(1.1); 
-  transform: scale(1.1);
+
+.pertanyaan1.card-hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
-.div-card{
-  padding:2%;
+.pertanyaan2.card-hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
-.badan{
+.pertanyaan3.card-hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.pertanyaan4.card-hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.pertanyaan5.card-hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.pertanyaan6.card-hover {
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.div-card {
+    padding: 2%;
+}
+
+.badan {
     justify-content: center;
     max-width: 80%;
 }
-.baris{
+
+.baris {
     display: flex;
     justify-content: space-between;
 }
-.isi a{
-  font-size:smaller;
+
+.isi a {
+    font-size: smaller;
     text-decoration: none;
-    color:white;
+    color: white;
     border-radius: 2rem;
 }
 
 .panel-default>.panel-heading {
     color: #CBE3D9;
-    background-color:#327A6D;
+    background-color: #327A6D;
     border-color: #e4e5e7;
     padding: 0;
     border-radius: .2rem;
@@ -71,14 +81,14 @@ h4{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-  }
-  
-  .panel-default>.panel-heading a {
+}
+
+.panel-default>.panel-heading a {
     display: block;
     padding: 10px 30px;
-  }
-  
-  .panel-default>.panel-heading a:after {
+}
+
+.panel-default>.panel-heading a:after {
     content: "";
     position: relative;
     top: 1px;
@@ -89,25 +99,31 @@ h4{
     line-height: 1;
     transition: transform .25s linear;
     -webkit-transition: -webkit-transform .25s linear;
-  } 
-  .panel-default{
-      background:  white;
-  }
-  .panel-default .panel-body{
+}
+
+.panel-default {
+    background: white;
+}
+
+.panel-default .panel-body {
     background: white;
     padding: 0rem 2rem 2rem 2rem;
-  }
-  .section-one{
+}
+
+.section-one {
     margin-top: 6rem;
-  }
-  .section-two{
-    margin-top:6rem;
-  }
-  .section-two .lebih a{
+}
+
+.section-two {
+    margin-top: 6rem;
+}
+
+.section-two .lebih a {
     color: #f8a23d !important;
     text-decoration: none;
-  }
-  .jumbotron .search{
+}
+
+.jumbotron .search {
     display: flex;
     position: relative;
     justify-content: center;
@@ -119,25 +135,31 @@ h4{
     padding-left: 1rem;
     align-items: center;
     background: white;
-    border-radius:.2rem;
-  }
-  .jumbotron .search input{
+    border-radius: .2rem;
+}
+
+.jumbotron .search input {
     width: 100%;
     border: none;
-    color:#383838;
+    color: #383838;
     margin-left: .5rem;
-  }
-  .jumbotron .search input::-webkit-calendar-picker-indicator {
+}
+
+.jumbotron .search input::-webkit-calendar-picker-indicator {
     display: none;
-  }
-  .jumbotron .search .input-search:focus{
+}
+
+.jumbotron .search .input-search:focus {
     border-style: none;
     outline-width: 0;
-  }
-  .jumbotron .search i{
+}
+
+.jumbotron .search i {
     color: #bababa;
-  }
-  /* .rotate{
+}
+
+
+/* .rotate{
     transform: rotate(45deg);
   }
   .panel-default>.panel-heading a[aria-expanded="true"]{
@@ -146,101 +168,124 @@ h4{
   .panel-default>.panel-heading a[aria-expanded="true"] i{
     transform: rotate(1deg);
   } */
-  
-  .jumbotron .tombol{
+
+.jumbotron .tombol {
     position: absolute;
     right: 0;
     padding: .6rem 1rem;
     background: #bababa;
     border: .1rem solid #bababa;
     border-radius: none !important;
-  }
-  .card-row{
+}
+
+.card-row {
     display: flex;
     justify-content: center;
-  }
-  .section-one h5{
+}
+
+.section-one h5 {
     font-size: 1rem !important;
-  }
-  .section-one p{
+}
+
+.section-one p {
     font-size: .8rem !important;
-  }
-  .lainnya{
+}
+
+.lainnya {
     display: none;
-  }
-  .lainnya .datang{
+}
+
+.lainnya .datang {
     display: block;
-  }
-  #div1{
+}
+
+#div1 {
     display: block;
     position: relative;
-  }
-  #div2{
+}
+
+#div2 {
     display: none;
     position: relative;
-  }
-  #div3{
+}
+
+#div3 {
     display: none;
-  }
-  #div4{
+}
+
+#div4 {
     display: none;
-  }
-  #div5{
+}
+
+#div5 {
     display: none;
-  }
-  #div6{
+}
+
+#div6 {
     display: none;
-  }
-  .aktif{
+}
+
+.aktif {
     background: white !important;
- 
-  }
-  .kategori i{
+}
+
+.kategori i {
     transform: rotate(-90deg);
     transition: transform .2s;
-  }
-  .pointer {
+}
+
+.pointer {
     cursor: pointer;
-  }
-  .muncul{
+}
+
+.muncul {
     display: block;
-  }
-  /* acordion */
-  .cards-cover{
+}
+
+
+/* acordion */
+
+.cards-cover {
     padding: 0;
-  }
-  .cards-cover-all{
+}
+
+.cards-cover-all {
     display: none;
-  }
-  .cards-header{
+}
+
+.cards-header {
     display: flex;
-    margin:0rem 1rem;
+    margin: 0rem 1rem;
     border-radius: 5px;
     align-items: center;
-    background:#327A6D;
+    background: #327A6D;
     color: white;
     padding: .2rem;
-  }
-  .cards-header h5{
-    margin:.5rem;
+}
+
+.cards-header h5 {
+    margin: .5rem;
     display: flex !important;
     align-items: center !important;
-  }
-  .cards-header span{
+}
+
+.cards-header span {
     margin-left: 2rem;
-    transition:transform .3s;
-  }
-  .cards-body{
+    transition: transform .3s;
+}
+
+.cards-body {
     padding-top: .5rem;
     padding-left: 2rem;
     margin-right: 1rem;
     display: none;
-  }
-  .accordian .cards{
-    margin-bottom:1rem;
-    cursor:pointer;
-  }
-  .rotate{
-    transform:rotate(90deg);
-  }
-  
+}
+
+.accordian .cards {
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
