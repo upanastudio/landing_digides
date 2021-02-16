@@ -289,3 +289,6 @@ h4 {
 .rotate {
     transform: rotate(90deg);
 }
+.gambar-panduan{
+    width: 100%;
+}
