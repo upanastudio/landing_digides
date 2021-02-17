@@ -101,7 +101,7 @@ function muncul4() {
     }
     for (var i = 1; i < 7; i++) {
         if (i !== 4) {
-            document.querySelector('.logo' + i).src = "assets/img/iconCard/city-hall.svg";
+             
         } else {
             document.querySelector('.logo' + i).src = "assets/img/iconCard/city-hall-hover.svg";
         }
