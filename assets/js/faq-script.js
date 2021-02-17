@@ -1,5 +1,4 @@
 // function menampilkan kategori
-
 for (var i = 1; i <= 7; i++) {
     if (i !== 7) {
         document.getElementById('div' + i).style.display = "none";

@@ -296,7 +296,6 @@ h4 {
 
 .gambar-panduan-android {
     width: 40%;
-    margin-left: 30%;
 }
 
 .logo {
@@ -305,4 +304,48 @@ h4 {
 
 .keterangan li {
     font-size: .8rem;
+}
+.pusat-bantuan{
+    font-size: 3rem;
+}
+
+@media (max-width:780px){
+    .pusat-bantuan{
+        font-size: 2.5rem;
+    }
+    .logo{
+        width:90%;
+    }
+    .card-body-kategori{
+        display: flex;
+        justify-content: center;
+        padding-left:7px;
+    }
+}
+
+@media (max-width:480px){
+    .logo{
+        width:50px;
+    }
+    .card-body-kategori{
+        padding:0;
+        padding-left:7px;
+    }
+    
+    .desktop-view{
+        display:none;
+    }
+    .align-center{
+        text-align: center!important;
+    }
+    .judul-faq{
+        font-size: .9rem;
+    }
+    .isi-faq{
+        font-size:.8rem;
+    }
+    .pusat-bantuan{
+        font-size: 2rem;
+    }
+
 }
