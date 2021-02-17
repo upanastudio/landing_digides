@@ -289,6 +289,15 @@ h4 {
 .rotate {
     transform: rotate(90deg);
 }
-.gambar-panduan{
+
+.gambar-panduan {
+    width: 100%;
+}
+
+.gambar-panduan-android {
+    width: 40%;
+    margin-left: 30%;
+}
+.logo {
     width: 100%;
 }
