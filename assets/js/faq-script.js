@@ -25,9 +25,9 @@ function muncul1() {
     }
     for (var i = 1; i < 7; i++) {
         if (i !== 1) {
-            document.querySelector('.logo' + i).src = "assets/media/ikon_kategori/logo" + i + ".svg";
+            document.querySelector('.logo' + i).src = "assets/media/ikon-kategori/logo" + i + ".svg";
         } else {
-            document.querySelector('.logo' + i).src = "assets/media/ikon_kategori2/administration2.svg";
+            document.querySelector('.logo' + i).src = "assets/media/ikon-kategori2/administration2.svg";
         }
     }
 }
@@ -50,9 +50,9 @@ function muncul2() {
     }
     for (var i = 1; i < 7; i++) {
         if (i !== 2) {
-            document.querySelector('.logo' + i).src = "assets/media/ikon_kategori/logo" + i + ".svg";
+            document.querySelector('.logo' + i).src = "assets/media/ikon-kategori/logo" + i + ".svg";
         } else {
-            document.querySelector('.logo' + i).src = "assets/media/ikon_kategori2/service2.svg";
+            document.querySelector('.logo' + i).src = "assets/media/ikon-kategori2/service2.svg";
         }
     }
 }
@@ -75,9 +75,9 @@ function muncul3() {
     }
     for (var i = 1; i < 7; i++) {
         if (i !== 3) {
-            document.querySelector('.logo' + i).src = "assets/media/ikon_kategori/logo" + i + ".svg";
+            document.querySelector('.logo' + i).src = "assets/media/ikon-kategori/logo" + i + ".svg";
         } else {
-            document.querySelector('.logo' + i).src = "assets/media/ikon_kategori2/web_profil2.svg";
+            document.querySelector('.logo' + i).src = "assets/media/ikon-kategori2/web-profil2.svg";
         }
     }
 }
@@ -100,9 +100,9 @@ function muncul4() {
     }
     for (var i = 1; i < 7; i++) {
         if (i !== 4) {
-            document.querySelector('.logo' + i).src = "assets/media/ikon_kategori/logo" + i + ".svg";
+            document.querySelector('.logo' + i).src = "assets/media/ikon-kategori/logo" + i + ".svg";
         } else {
-            document.querySelector('.logo' + i).src = "assets/media/ikon_kategori2/mobile_service2.svg";
+            document.querySelector('.logo' + i).src = "assets/media/ikon-kategori2/mobile-service2.svg";
         }
     }
 }
@@ -125,9 +125,9 @@ function muncul5() {
     }
     for (var i = 1; i < 7; i++) {
         if (i !== 5) {
-            document.querySelector('.logo' + i).src = "assets/media/ikon_kategori/logo" + i + ".svg";
+            document.querySelector('.logo' + i).src = "assets/media/ikon-kategori/logo" + i + ".svg";
         } else {
-            document.querySelector('.logo' + i).src = "assets/media/ikon_kategori2/user_settings2.svg";
+            document.querySelector('.logo' + i).src = "assets/media/ikon-kategori2/user-settings2.svg";
         }
     }
 }
@@ -150,9 +150,9 @@ function muncul6() {
     }
     for (var i = 1; i < 7; i++) {
         if (i !== 6) {
-            document.querySelector('.logo' + i).src = "assets/media/ikon_kategori/logo" + i + ".svg";
+            document.querySelector('.logo' + i).src = "assets/media/ikon-kategori/logo" + i + ".svg";
         } else {
-            document.querySelector('.logo' + i).src = "assets/media/ikon_kategori2/user_regist2.svg";
+            document.querySelector('.logo' + i).src = "assets/media/ikon-kategori2/user-regist2.svg";
         }
     }
 
