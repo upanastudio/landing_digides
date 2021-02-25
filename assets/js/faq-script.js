@@ -6,7 +6,7 @@ for (var i = 1; i <= 7; i++) {
         document.getElementById('div' + i).style.display = "block";
     }
 }
- 
+
 function muncul1() {
     for (var i = 1; i < 7; i++) {
         aktif = document.querySelector('.pertanyaan' + i);
@@ -26,6 +26,7 @@ function muncul1() {
     for (var i = 1; i < 7; i++) {
         if (i !== 1) {
             document.querySelector('.logo' + i).src = "assets/media/ikon-kategori/logo" + i + ".svg";
+
         } else {
             document.querySelector('.logo' + i).src = "assets/media/ikon-kategori2/administration2.svg";
         }
@@ -157,7 +158,7 @@ function muncul6() {
     }
 
 }
-// merubaha warna pertanyaan umum
+// efek zoom pertanyaan umum
 
 $('.aktif1').on('mouseenter', function () {
     $('.pertanyaan1').addClass('card-hover');

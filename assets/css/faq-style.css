@@ -291,7 +291,9 @@ h4 {
 }
 
 .gambar-panduan {
-    width: 100%;
+    margin-top:.5rem;
+    max-width: 100%;
+    height: auto;
 }
 
 .gambar-panduan-android {
@@ -307,6 +309,9 @@ h4 {
 }
 .pusat-bantuan{
     font-size: 3rem;
+}
+.li-wrapper{
+    margin-top: -0.9rem;
 }
 
 @media (max-width:780px){
