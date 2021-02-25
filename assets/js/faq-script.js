@@ -6,7 +6,7 @@ for (var i = 1; i <= 7; i++) {
         document.getElementById('div' + i).style.display = "block";
     }
 }
-
+ 
 function muncul1() {
     for (var i = 1; i < 7; i++) {
         aktif = document.querySelector('.pertanyaan' + i);
